@@ -1,0 +1,29 @@
+PPT:
+- identitas kelompok
+- pendahuluan proyek
+- fitur
+- penjelasan proyek
+- visualisasi data
+
+Web:
+- identitas kelompok (ABOUT US)
+- visualisasi data
+- fitur penentu harga spek komputer
+
+Scraping:
+- nama produk
+- harga
+- rating
+- jumlah terjual
+- nama toko
+- lokasi toko
+
+Komponen Komputer:
+- mobo
+- processor
+- hdd
+- ssd
+- ram
+- vga
+- psu
+- fan
