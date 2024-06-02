@@ -8,7 +8,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 
-url = 'https://www.tokopedia.com/tokoexpert/etalase/prosesor-amd'
+url = 'https://www.tokopedia.com/tokoexpert/etalase/motherboard-intel'
 driver = webdriver.Chrome()
 driver.get(url)
 
@@ -47,16 +47,16 @@ while True:
                 }
             )
 
-    if currentPage == 2:
-        break
+    # if currentPage == 2:
+    #     break
 
-    driver.find_element(By.CSS_SELECTOR, "a[data-testid='btnShopProductPageNext']").click()
-    currentPage += 1
+    # driver.find_element(By.CSS_SELECTOR, "a[data-testid='btnShopProductPageNext']").click()
+    # currentPage += 1
 
-df = pd.DataFrame(data)
-print(df)
+    df = pd.DataFrame(data)
+    print(df)
 
-with open('expertAmd.json', 'w', encoding='utf-8') as json_file:
-    json.dump(data, json_file, indent=1, ensure_ascii=False)
+    with open('itshopMoboAmd.json', 'w', encoding='utf-8') as json_file:
+        json.dump(data, json_file, indent=1, ensure_ascii=False)
 
-driver.quit()
+    driver.quit()

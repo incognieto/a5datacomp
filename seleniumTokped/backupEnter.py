@@ -9,7 +9,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
 
-url = 'https://www.tokopedia.com/enterkomputer/etalase/processor-intel'
+url = 'https://www.tokopedia.com/tokoexpert/etalase/motherboard-amd'
 driver = webdriver.Chrome()
 driver.get(url)
 
@@ -48,7 +48,7 @@ while True:
                 }
             )
 
-    if currentPage == 3:
+    if currentPage == 4:
         break
 
     # Wait for the "Next Page" button to be clickable
@@ -66,7 +66,7 @@ while True:
 df = pd.DataFrame(data)
 print(df)
 
-with open('enterIntel.json', 'w', encoding='utf-8') as json_file:
+with open('expertMoboAmd.json', 'w', encoding='utf-8') as json_file:
     json.dump(data, json_file, indent=1, ensure_ascii=False)
 
 driver.quit()
