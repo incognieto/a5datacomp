@@ -1,0 +1,98 @@
+[
+ {
+  "name": "Intel Processor Core i7 14700F - LGA1700 - Intel gen14",
+  "price": "Rp6.300.000",
+  "rating": "5.0",
+  "sold": "8 terjual"
+ },
+ {
+  "name": "Intel Processor Core i7 14700KF - LGA1700 - Intel gen14",
+  "price": "Rp6.670.000",
+  "rating": "5.0",
+  "sold": "14 terjual"
+ },
+ {
+  "name": "Intel Processor Core i9 14900KF - LGA1700 - Intel gen 14",
+  "price": "Rp9.500.000",
+  "rating": "5.0",
+  "sold": "5 terjual"
+ },
+ {
+  "name": "Intel Processor Core i5 14600KF - LGA1700 - intel gen 14",
+  "price": "Rp4.850.000",
+  "rating": "5.0",
+  "sold": "14 terjual"
+ },
+ {
+  "name": "Intel Processor Core i7 13700F - LGA1700",
+  "price": "Rp6.200.000",
+  "rating": "5.0",
+  "sold": "50+ terjual"
+ },
+ {
+  "name": "Intel Processor Core i5 13400F - LGA1700",
+  "price": "Rp3.030.000",
+  "rating": "5.0",
+  "sold": "100+ terjual"
+ },
+ {
+  "name": "Intel Processor Core i3 12100 - LGA1700",
+  "price": "Rp1.860.000",
+  "rating": "5.0",
+  "sold": "500+ terjual"
+ },
+ {
+  "name": "Intel Processor Core i3 12100F - LGA1700",
+  "price": "Rp1.350.000",
+  "rating": "5.0",
+  "sold": "1rb+ terjual"
+ },
+ {
+  "name": "Intel Processor Core i7 12700 - LGA1700",
+  "price": "Rp4.690.000",
+  "rating": "5.0",
+  "sold": "100+ terjual"
+ },
+ {
+  "name": "Intel Processor Core i7 12700F - LGA1700",
+  "price": "Rp4.090.000",
+  "rating": "5.0",
+  "sold": "250+ terjual"
+ },
+ {
+  "name": "Processor Intel Core i5 12400 LGA 1700",
+  "price": "Rp2.490.000",
+  "rating": "5.0",
+  "sold": "500+ terjual"
+ },
+ {
+  "name": "Processor Intel Core i5 12400F LGA 1700",
+  "price": "Rp1.990.000",
+  "rating": "5.0",
+  "sold": "1rb+ terjual"
+ },
+ {
+  "name": "Processor Intel Core i3 10100F LGA 1200 Box",
+  "price": "Rp1.180.000",
+  "rating": "5.0",
+  "sold": "2rb+ terjual"
+ },
+ {
+  "name": "Processor Intel Core i5 10400F - LGA 1200 Box",
+  "price": "Rp1.650.000",
+  "rating": "5.0",
+  "sold": "1rb+ terjual"
+ },
+ {
+  "name": "Processor Intel Core i3 10100 LGA 1200 Box",
+  "price": "Rp1.740.000",
+  "rating": "5.0",
+  "sold": "1rb+ terjual"
+ },
+ {
+  "name": "Processor Intel Core i5 10400 - LGA 1200 Box",
+  "price": "Rp2.200.000",
+  "rating": "5.0",
+  "sold": "1rb+ terjual"
+ }
+]

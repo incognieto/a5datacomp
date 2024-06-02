@@ -1,0 +1,938 @@
+[
+ {
+  "name": "Processor INTEL CORE i9 14900KS BOX (LGA 1700)",
+  "price": "Rp12.490.000",
+  "rating": "N/A",
+  "sold": "N/A"
+ },
+ {
+  "name": "Intel Core i3 12100 TRAY + FAN (Intel LGA 1700)",
+  "price": "Rp1.670.000",
+  "rating": "5.0",
+  "sold": "3 terjual"
+ },
+ {
+  "name": "Processor INTEL CORE i9 14900 (LGA 1700)",
+  "price": "Rp10.390.000",
+  "rating": "N/A",
+  "sold": "N/A"
+ },
+ {
+  "name": "Processor INTEL CORE i9 14900F (LGA 1700)",
+  "price": "Rp9.495.000",
+  "rating": "N/A",
+  "sold": "1 terjual"
+ },
+ {
+  "name": "Processor INTEL CORE i7 14700 (LGA 1700)",
+  "price": "Rp6.880.000",
+  "rating": "N/A",
+  "sold": "3 terjual"
+ },
+ {
+  "name": "Processor INTEL CORE i7 14700F (LGA 1700)",
+  "price": "Rp6.450.000",
+  "rating": "3.0",
+  "sold": "9 terjual"
+ },
+ {
+  "name": "Processor INTEL CORE i5 14500 (LGA 1700)",
+  "price": "Rp4.350.000",
+  "rating": "5.0",
+  "sold": "18 terjual"
+ },
+ {
+  "name": "Processor INTEL CORE i5 14400 (LGA 1700)",
+  "price": "Rp4.065.000",
+  "rating": "5.0",
+  "sold": "2 terjual"
+ },
+ {
+  "name": "Processor INTEL CORE i5 14400F (LGA 1700)",
+  "price": "Rp3.615.000",
+  "rating": "5.0",
+  "sold": "40+ terjual"
+ },
+ {
+  "name": "Processor INTEL CORE i3 14100 (LGA 1700)",
+  "price": "Rp2.495.000",
+  "rating": "5.0",
+  "sold": "5 terjual"
+ },
+ {
+  "name": "Processor INTEL CORE i3 14100F (LGA 1700)",
+  "price": "Rp2.035.000",
+  "rating": "5.0",
+  "sold": "6 terjual"
+ },
+ {
+  "name": "COLORFUL BATTLE-AX H610M-E WIFI V20 DDR4 (LGA 1700)",
+  "price": "Rp1.330.000",
+  "rating": "5.0",
+  "sold": "1 terjual"
+ },
+ {
+  "name": "MSI Z790 GAMING PLUS WIFI DDR5 (Intel LGA 1700, SUPPORT GEN 14)",
+  "price": "Rp4.980.000",
+  "rating": "5.0",
+  "sold": "5 terjual"
+ },
+ {
+  "name": "Processor INTEL CORE i5 14600K 14 Core (LGA 1700)",
+  "price": "Rp5.355.000",
+  "rating": "5.0",
+  "sold": "13 terjual"
+ },
+ {
+  "name": "Processor INTEL CORE i7 14700KF 20 Core 28 Thread (LGA 1700)",
+  "price": "Rp6.490.000",
+  "rating": "5.0",
+  "sold": "22 terjual"
+ },
+ {
+  "name": "Processor INTEL CORE i5 14600KF (LGA 1700)",
+  "price": "Rp5.175.000",
+  "rating": "4.9",
+  "sold": "26 terjual"
+ },
+ {
+  "name": "Processor INTEL CORE i9 14900KF 6.0Ghz 24 Core (LGA 1700)",
+  "price": "Rp9.220.000",
+  "rating": "5.0",
+  "sold": "10 terjual"
+ },
+ {
+  "name": "Processor INTEL CORE i7 14700K 5.6Ghz 20C/28T (LGA 1700)",
+  "price": "Rp7.315.000",
+  "rating": "5.0",
+  "sold": "30+ terjual"
+ },
+ {
+  "name": "Processor INTEL CORE i9 14900K 6.0Ghz 24C/32T (LGA 1700)",
+  "price": "Rp9.980.000",
+  "rating": "5.0",
+  "sold": "30+ terjual"
+ },
+ {
+  "name": "Intel Core i7-7700 TRAY + FAN - 3.6Ghz - KabyLake Socket 1151",
+  "price": "Rp1.730.000",
+  "rating": "N/A",
+  "sold": "1 terjual"
+ },
+ {
+  "name": "Intel Core I7-6700 TRAY + FAN Skylake 1151",
+  "price": "Rp1.340.000",
+  "rating": "4.5",
+  "sold": "3 terjual"
+ },
+ {
+  "name": "Intel Core i5-7500 TRAY + FAN - 3.4Ghz - KabyLake Socket 1151",
+  "price": "Rp855.000",
+  "rating": "5.0",
+  "sold": "10 terjual"
+ },
+ {
+  "name": "Intel Core I5 8500 TARY + FAN 3.0Ghz (LGA 1151 COFFEE LAKE)",
+  "price": "Rp1.365.000",
+  "rating": "5.0",
+  "sold": "6 terjual"
+ },
+ {
+  "name": "Intel Core I5-6500 TRAY + FAN Skylake 1151",
+  "price": "Rp625.000",
+  "rating": "5.0",
+  "sold": "7 terjual"
+ },
+ {
+  "name": "Processor Intel Core i9 13900KS 24 Core 32 Threads 6.0GHz (LGA 1700)",
+  "price": "Rp11.650.000",
+  "rating": "5.0",
+  "sold": "1 terjual"
+ },
+ {
+  "name": "Processor Intel Core i5 13500 2.50GHz 14 Core 20 Threads (LGA 1700)",
+  "price": "Rp4.230.000",
+  "rating": "5.0",
+  "sold": "100+ terjual"
+ },
+ {
+  "name": "Processor Intel Core i9 13900 (LGA 1700)",
+  "price": "Rp10.290.000",
+  "rating": "5.0",
+  "sold": "2 terjual"
+ },
+ {
+  "name": "Processor Intel Core i9 13900F 24 Core 32 Threads 5.60GHz (LGA 1700)",
+  "price": "Rp9.890.000",
+  "rating": "5.0",
+  "sold": "6 terjual"
+ },
+ {
+  "name": "Processor Intel Core i7 13700 16 Core 24 Threads 5.20GHz(LGA 1700)",
+  "price": "Rp6.770.000",
+  "rating": "5.0",
+  "sold": "26 terjual"
+ },
+ {
+  "name": "Processor Intel Core i5 13400F 10 Core 16 Threads 4.60GHz (LGA 1700)",
+  "price": "Rp3.180.000",
+  "rating": "5.0",
+  "sold": "250+ terjual"
+ },
+ {
+  "name": "Processor Intel Core i3 13100F 4 Core 8 Threads 4.50GHz (LGA 1700)",
+  "price": "Rp1.925.000",
+  "rating": "5.0",
+  "sold": "30+ terjual"
+ },
+ {
+  "name": "Processor Intel Core i3 13100 4 Core 8 Threads 4.50GHz (LGA 1700)",
+  "price": "Rp2.409.000",
+  "rating": "5.0",
+  "sold": "21 terjual"
+ },
+ {
+  "name": "Processor Intel Core i7 13700F 4.10GHz 16 Core 24 Threads (LGA 1700)",
+  "price": "Rp6.280.000",
+  "rating": "5.0",
+  "sold": "30+ terjual"
+ },
+ {
+  "name": "Processor Intel Core i5 13400 (LGA 1700)",
+  "price": "Rp3.770.000",
+  "rating": "4.9",
+  "sold": "22 terjual"
+ },
+ {
+  "name": "Processor INTEL CORE i9 12900K TRAY (LGA 1700)",
+  "price": "Rp9.403.000",
+  "rating": "N/A",
+  "sold": "N/A"
+ },
+ {
+  "name": "Processor Intel Core i5 13600KF 14 Core 20 Threads 5.10GHz (LGA 1700)",
+  "price": "Rp5.045.000",
+  "rating": "5.0",
+  "sold": "50+ terjual"
+ },
+ {
+  "name": "Processor Intel Core i5 13600K 14 Core 20 Threads 5.10GHz (LGA 1700)",
+  "price": "Rp5.440.000",
+  "rating": "5.0",
+  "sold": "40+ terjual"
+ },
+ {
+  "name": "Processor Intel Core i7 13700KF 16 Core 24 Threads 5.40GHz (LGA 1700)",
+  "price": "Rp6.655.000",
+  "rating": "5.0",
+  "sold": "30+ terjual"
+ },
+ {
+  "name": "Processor Intel Core i7 13700K 16 Core 24 Threads 5.40GHz (LGA 1700)",
+  "price": "Rp6.880.000",
+  "rating": "5.0",
+  "sold": "40+ terjual"
+ },
+ {
+  "name": "Processor Intel Core i9 13900KF 24 Core 32 Threads 5.80GHz (LGA 1700)",
+  "price": "Rp9.540.000",
+  "rating": "5.0",
+  "sold": "15 terjual"
+ },
+ {
+  "name": "Processor Intel Core i9 13900K 24 Core 32 Threads 5.80GHz (LGA 1700)",
+  "price": "Rp9.765.000",
+  "rating": "5.0",
+  "sold": "40+ terjual"
+ },
+ {
+  "name": "Intel Core i5 10400 TRAY + FAN (Socket Intel LGA 1200, Gen 10)",
+  "price": "Rp2.472.000",
+  "rating": "5.0",
+  "sold": "2 terjual"
+ },
+ {
+  "name": "Intel Core i3 12100 BOX (Intel LGA 1700)",
+  "price": "Rp2.120.000",
+  "rating": "5.0",
+  "sold": "250+ terjual"
+ },
+ {
+  "name": "Processor Intel Pentium Gold G7400 BOX (Intel LGA 1700, Gen 12)",
+  "price": "Rp1.570.000",
+  "rating": "5.0",
+  "sold": "70+ terjual"
+ },
+ {
+  "name": "Processor Intel Core I7 12700 BOX (LGA 1700)",
+  "price": "Rp4.675.000",
+  "rating": "5.0",
+  "sold": "30+ terjual"
+ },
+ {
+  "name": "Processor INTEL CORE i9 12900 Box (LGA 1700)",
+  "price": "Rp8.290.000",
+  "rating": "5.0",
+  "sold": "4 terjual"
+ },
+ {
+  "name": "Processor INTEL CORE i9 12900F Box (INTEL LGA 1700)",
+  "price": "Rp7.840.000",
+  "rating": "4.0",
+  "sold": "10 terjual"
+ },
+ {
+  "name": "Intel Core i5 12600 BOX (INTEL LGA 1700)",
+  "price": "Rp4.380.000",
+  "rating": "5.0",
+  "sold": "15 terjual"
+ },
+ {
+  "name": "Intel Core i5 12500 BOX (INTEL LGA 1700)",
+  "price": "Rp3.750.000",
+  "rating": "5.0",
+  "sold": "10 terjual"
+ },
+ {
+  "name": "Intel Core i5 12400F BOX (INTEL LGA 1700)",
+  "price": "Rp1.990.000",
+  "rating": "5.0",
+  "sold": "750+ terjual"
+ },
+ {
+  "name": "Intel Core i5 12400 BOX (INTEL LGA 1700)",
+  "price": "Rp2.570.000",
+  "rating": "5.0",
+  "sold": "100+ terjual"
+ },
+ {
+  "name": "Intel Core i3 12100F BOX (Intel LGA 1700)",
+  "price": "Rp1.490.000",
+  "rating": "5.0",
+  "sold": "500+ terjual"
+ },
+ {
+  "name": "Processor Intel Core I7 12700F Box (LGA 1700)",
+  "price": "Rp4.180.000",
+  "rating": "5.0",
+  "sold": "100+ terjual"
+ },
+ {
+  "name": "Intel Core i5 11600KF TRAY + FAN (LGA 1200 Gen 11)",
+  "price": "Rp3.747.000",
+  "rating": "5.0",
+  "sold": "4 terjual"
+ },
+ {
+  "name": "Processor INTEL CORE i9 12900K Box (LGA 1700)",
+  "price": "Rp6.860.000",
+  "rating": "5.0",
+  "sold": "9 terjual"
+ },
+ {
+  "name": "Processor INTEL CORE i9 12900KF Box (LGA 1700)",
+  "price": "Rp6.390.000",
+  "rating": "5.0",
+  "sold": "12 terjual"
+ },
+ {
+  "name": "Processor Intel Core I7 12700K Box (LGA 1700)",
+  "price": "Rp4.960.000",
+  "rating": "5.0",
+  "sold": "40+ terjual"
+ },
+ {
+  "name": "Intel Core i7 12700KF BOX 3.6GHz 12 Core 20 Threads (LGA 1700)",
+  "price": "Rp4.490.000",
+  "rating": "5.0",
+  "sold": "20 terjual"
+ },
+ {
+  "name": "Intel Core i5 12600KF BOX 3.60Ghz 10 Core 16 Threads (LGA 1700)",
+  "price": "Rp3.575.000",
+  "rating": "5.0",
+  "sold": "12 terjual"
+ },
+ {
+  "name": "Intel Core i5 12600K BOX 3.4GHz 10 Core 16 Threads (LGA 1700)",
+  "price": "Rp3.400.000",
+  "rating": "4.9",
+  "sold": "30+ terjual"
+ },
+ {
+  "name": "Intel Core i7 10700 TRAY + FAN 2.90GHz 8 Core 16 Thread",
+  "price": "Rp5.292.000",
+  "rating": "N/A",
+  "sold": "N/A"
+ },
+ {
+  "name": "Intel Core i3 10100F TRAY + FAN 3.6Ghz Up To 4.3Ghz (LGA 1200 Gen10)",
+  "price": "Rp1.166.000",
+  "rating": "5.0",
+  "sold": "40+ terjual"
+ },
+ {
+  "name": "Intel Core i5 11400 TRAY + FAN 6 Core 12 Threads (LGA 1200 Gen 11)",
+  "price": "Rp2.650.000",
+  "rating": "5.0",
+  "sold": "8 terjual"
+ },
+ {
+  "name": "Intel Core i5-7400 TRAY + FAN 3.0Ghz - KabyLake Socket 1151",
+  "price": "Rp2.241.000",
+  "rating": "N/A",
+  "sold": "N/A"
+ },
+ {
+  "name": "Intel Core i5 3470 TRAY TANPA FAN",
+  "price": "Rp275.000",
+  "rating": "5.0",
+  "sold": "22 terjual"
+ },
+ {
+  "name": "Intel Core i5 3470 TRAY + FAN INTEL",
+  "price": "Rp295.000",
+  "rating": "5.0",
+  "sold": "50+ terjual"
+ },
+ {
+  "name": "Intel Core i5 10400F 2.9GHz 6 Core TRAY + FAN (Intel LGA 1200, Gen 10)",
+  "price": "Rp1.943.000",
+  "rating": "5.0",
+  "sold": "80+ terjual"
+ },
+ {
+  "name": "Processor Intel Core I3 10100 TRAY + FAN (LGA 1200 Gen 10)",
+  "price": "Rp1.800.000",
+  "rating": "5.0",
+  "sold": "30+ terjual"
+ },
+ {
+  "name": "Processor Intel Core I3 10105 Box (Socket LGA 1200)",
+  "price": "Rp1.750.000",
+  "rating": "5.0",
+  "sold": "500+ terjual"
+ },
+ {
+  "name": "Processor Intel Pentium Gold G6405 Box (Intel LGA 1200, Gen 10)",
+  "price": "Rp1.295.000",
+  "rating": "5.0",
+  "sold": "100+ terjual"
+ },
+ {
+  "name": "Processor Intel Core I9 10900KF Box (INTEL LGA 1200, GEN 10)",
+  "price": "Rp7.282.000",
+  "rating": "5.0",
+  "sold": "4 terjual"
+ },
+ {
+  "name": "Processor Intel Core I5 11400F (LGA 1200 Gen 11)",
+  "price": "Rp1.720.000",
+  "rating": "5.0",
+  "sold": "100+ terjual"
+ },
+ {
+  "name": "Processor Intel Core I9 11900KF Box (LGA 1200, Gen 11)",
+  "price": "Rp6.845.000",
+  "rating": "N/A",
+  "sold": "2 terjual"
+ },
+ {
+  "name": "Intel Core i5-9400 TRAY + FAN 6-Core 2.9GHz Upto 4.1 GHz Turbo",
+  "price": "Rp1.640.000",
+  "rating": "5.0",
+  "sold": "2 terjual"
+ },
+ {
+  "name": "Intel Core i5 11600 2.8Ghz Up To 4.8Ghz - Cache 12MB (LGA 1200 Gen 11)",
+  "price": "Rp4.045.000",
+  "rating": "N/A",
+  "sold": "1 terjual"
+ },
+ {
+  "name": "Intel Core i9 11900K 8 Core 16 Threads up To 5.3Mhz (LGA 1200 Gen 11)",
+  "price": "Rp6.570.000",
+  "rating": "4.5",
+  "sold": "4 terjual"
+ },
+ {
+  "name": "Intel Core i9 11900F 8 Core 16 Threads up To 5.2Mhz (LGA 1200, Gen 11)",
+  "price": "Rp6.410.000",
+  "rating": "N/A",
+  "sold": "3 terjual"
+ },
+ {
+  "name": "Intel Core i5 11400 6 Core 12 Threads up To 4.4 Ghz (LGA 1200 Gen 11)",
+  "price": "Rp2.180.000",
+  "rating": "5.0",
+  "sold": "100+ terjual"
+ },
+ {
+  "name": "Intel Core i5 11600KF 3.9Ghz Up To 4.9Ghz Cache 12MB (LGA 1200 Gen 11)",
+  "price": "Rp3.895.000",
+  "rating": "5.0",
+  "sold": "2 terjual"
+ },
+ {
+  "name": "Intel Core i5 11500 6-Core 12-Thread 2.7Ghz (LGA 1200 Gen 11)",
+  "price": "Rp3.484.000",
+  "rating": "N/A",
+  "sold": "1 terjual"
+ },
+ {
+  "name": "Intel Core i7 11700F 8 Core 16 Threads up To 4.9 Ghz (LGA 1200 Gen 11)",
+  "price": "Rp3.850.000",
+  "rating": "5.0",
+  "sold": "80+ terjual"
+ },
+ {
+  "name": "Intel Core i7 11700KF BOX 8 Core 16 Threads (LGA 1200, Gen 11)",
+  "price": "Rp5.150.000",
+  "rating": "5.0",
+  "sold": "5 terjual"
+ },
+ {
+  "name": "Intel Core i9 11900 8 Core 16 Threads up To 5.2 Ghz (LGA 1200, Gen 11)",
+  "price": "Rp6.900.000",
+  "rating": "5.0",
+  "sold": "6 terjual"
+ },
+ {
+  "name": "Intel Core i7 11700 BOX (LGA 1200, Gen 11)",
+  "price": "Rp4.290.000",
+  "rating": "5.0",
+  "sold": "30+ terjual"
+ },
+ {
+  "name": "Intel Core i7 11700K 8 Core 16 Threads up To 5.0Ghz (LGA 1200, Gen 11)",
+  "price": "Rp5.550.000",
+  "rating": "5.0",
+  "sold": "14 terjual"
+ },
+ {
+  "name": "Intel Core i5 11600K 3.8GHz 6 Core 12 Threads (Intel LGA 1200, Gen 10)",
+  "price": "Rp4.375.000",
+  "rating": "5.0",
+  "sold": "3 terjual"
+ },
+ {
+  "name": "Intel Core i3 10105F BOX 3.7GHz 4 Core 8 Thread (Socket LGA 1200)",
+  "price": "Rp1.215.000",
+  "rating": "5.0",
+  "sold": "100+ terjual"
+ },
+ {
+  "name": "Intel Pentium GOLD G5400 TRAY + FAN 3.7GHz (Socket 1151 Coffee Lake)",
+  "price": "Rp1.250.000",
+  "rating": "5.0",
+  "sold": "40+ terjual"
+ },
+ {
+  "name": "Intel Core i3 10100F 3.6Ghz Up To 4.3Ghz (Socket LGA 1200 Gen10)",
+  "price": "Rp1.215.000",
+  "rating": "4.9",
+  "sold": "250+ terjual"
+ },
+ {
+  "name": "Intel Core I5 4570 3.2Ghz TRAY + FAN INTEL (Socket 1150)",
+  "price": "Rp360.000",
+  "rating": "5.0",
+  "sold": "100+ terjual"
+ },
+ {
+  "name": "Intel Core i9 10850K 3,6GHz 10 Core 20 Thread (LGA 1200, Gen10)",
+  "price": "Rp7.868.000",
+  "rating": "N/A",
+  "sold": "N/A"
+ },
+ {
+  "name": "Intel Core i5 10600KF 4.1GHz 6 Core 12 Thread (Intel LGA 1200)",
+  "price": "Rp3.282.000",
+  "rating": "5.0",
+  "sold": "12 terjual"
+ },
+ {
+  "name": "Intel Coare i7 4790 Tray + Fan LGA 1150",
+  "price": "Rp840.000",
+  "rating": "4.9",
+  "sold": "18 terjual"
+ },
+ {
+  "name": "Intel Core i7 10700F 2.90GHz Up To 4.8Ghz 8 Core (LGA 1200, Gen 10)",
+  "price": "Rp3.950.000",
+  "rating": "5.0",
+  "sold": "100+ terjual"
+ },
+ {
+  "name": "Intel Core i9 10900F 2.8Ghz Up To 5.2Ghz - Cache 20MB (Intel LGA 1200)",
+  "price": "Rp6.830.000",
+  "rating": "5.0",
+  "sold": "10 terjual"
+ },
+ {
+  "name": "Intel Core i7 10700KF 3.8Ghz Up To 5.0Ghz Cache 16MB (Intel LGA 1200)",
+  "price": "Rp5.262.000",
+  "rating": "5.0",
+  "sold": "13 terjual"
+ },
+ {
+  "name": "Intel Pentium Gold G6400 BOX 4.0GHz 4M Cache (Intel LGA 1200, Gen 10)",
+  "price": "Rp1.295.000",
+  "rating": "5.0",
+  "sold": "100+ terjual"
+ },
+ {
+  "name": "Intel Core i5 10600K BOX 4.1Ghz (Intel LGA 1200, Gen 10)",
+  "price": "Rp3.878.000",
+  "rating": "5.0",
+  "sold": "16 terjual"
+ },
+ {
+  "name": "Intel Core i5 10400F 2.9GHz 6 Core (Intel LGA 1200, Gen 10)",
+  "price": "Rp1.645.000",
+  "rating": "5.0",
+  "sold": "250+ terjual"
+ },
+ {
+  "name": "Intel Core i9 10900 Cache 12MB 2.8Ghz Up To 5.0Ghz (LGA 1200 Gen 10)",
+  "price": "Rp7.340.000",
+  "rating": "5.0",
+  "sold": "15 terjual"
+ },
+ {
+  "name": "Intel Core i9 10900K 3.7GHz 10 Core 20 Thread (INTEL LGA 1200, GEN 10)",
+  "price": "Rp7.850.000",
+  "rating": "5.0",
+  "sold": "18 terjual"
+ },
+ {
+  "name": "Intel Core i7 10700K 3.8Ghz Up To 5.1Ghz Cache 16MB - LGA 12000 GEN 10",
+  "price": "Rp5.760.000",
+  "rating": "5.0",
+  "sold": "23 terjual"
+ },
+ {
+  "name": "Intel Core i7 10700 2.90GHz 8 Core 16 Thread (Intel LGA 12000, GEN 10)",
+  "price": "Rp4.220.000",
+  "rating": "4.8",
+  "sold": "70+ terjual"
+ },
+ {
+  "name": "Intel Core i5 10600 BOX 3.3Ghz Up To 4.8Ghz (Intel LGA 12000, GEN 10)",
+  "price": "Rp3.666.000",
+  "rating": "5.0",
+  "sold": "10 terjual"
+ },
+ {
+  "name": "Intel Core i5 10500 BOX 3.1Ghz Up To 4.5Ghz (Comet Lake 12000 Gen 10)",
+  "price": "Rp3.343.000",
+  "rating": "5.0",
+  "sold": "18 terjual"
+ },
+ {
+  "name": "Intel Core i5 10400 BOX 2.9Ghz Up To 4.3Ghz (Socket Intel LGA 12000, G",
+  "price": "Rp2.215.000",
+  "rating": "5.0",
+  "sold": "250+ terjual"
+ },
+ {
+  "name": "Intel Core i3 10100 BOX 3.6Ghz Up To 4.30Ghz (Intel LGA 1200, Gen 10)",
+  "price": "Rp1.750.000",
+  "rating": "5.0",
+  "sold": "250+ terjual"
+ },
+ {
+  "name": "Prosesor Intel Core i5 2500 3.3Ghz TRAY + FAN - Socket 1155",
+  "price": "Rp220.000",
+  "rating": "4.9",
+  "sold": "50+ terjual"
+ },
+ {
+  "name": "Prosesor Intel Core i5 2500 3.3Ghz TRAY TANPA FAN - Socket 1155",
+  "price": "Rp200.000",
+  "rating": "4.9",
+  "sold": "15 terjual"
+ },
+ {
+  "name": "Prosesor Intel Core i3 3220 Tray 3.3Ghz No Fan (Socket 1155)",
+  "price": "Rp120.000",
+  "rating": "5.0",
+  "sold": "2 terjual"
+ },
+ {
+  "name": "Prosesor Intel Core i7 3770 Tray 3.4Ghz No Fan - Socket 1155",
+  "price": "Rp735.000",
+  "rating": "5.0",
+  "sold": "30+ terjual"
+ },
+ {
+  "name": "Prosesor Intel Core i7 3770 Tray 3.4Ghz + Fan - Socket 1155",
+  "price": "Rp755.000",
+  "rating": "4.9",
+  "sold": "70+ terjual"
+ },
+ {
+  "name": "Prosesor Intel Core i3 4130 Tray 3.4Ghz + Fan - Socket 1150",
+  "price": "Rp140.000",
+  "rating": "5.0",
+  "sold": "60+ terjual"
+ },
+ {
+  "name": "Prosesor Intel Core i3 4130 Tray 3.4Ghz No Fan - Socket 1150",
+  "price": "Rp120.000",
+  "rating": "4.9",
+  "sold": "15 terjual"
+ },
+ {
+  "name": "Prosesor Intel Core i3 3220 Tray 3.3Ghz + Fan (Socket 1155)",
+  "price": "Rp140.000",
+  "rating": "5.0",
+  "sold": "30+ terjual"
+ },
+ {
+  "name": "Intel Core i5 9500 6 Cores up to 4.GHz Turbo (1151 Coffee Lake Gen 9)",
+  "price": "Rp2.985.000",
+  "rating": "N/A",
+  "sold": "1 terjual"
+ },
+ {
+  "name": "Intel Core i3-6100 3.7GHz TRAY + FAN INTEL",
+  "price": "Rp596.000",
+  "rating": "4.9",
+  "sold": "100+ terjual"
+ },
+ {
+  "name": "Intel Core i3-7100 - 3.9 Ghz TRAY + FAN Intel",
+  "price": "Rp620.000",
+  "rating": "N/A",
+  "sold": "N/A"
+ },
+ {
+  "name": "PROCESSOR CORE i3 4170 TRAY + FAN (Socket LGA 1150)",
+  "price": "Rp170.000",
+  "rating": "5.0",
+  "sold": "100+ terjual"
+ },
+ {
+  "name": "PROCESSOR CORE i7 2600 TRAY + FAN (Socket LGA 1155)",
+  "price": "Rp555.000",
+  "rating": "4.5",
+  "sold": "5 terjual"
+ },
+ {
+  "name": "PROCESSOR CORE i3 4150 TRAY + FAN (Socket LGA 1150)",
+  "price": "Rp140.000",
+  "rating": "4.8",
+  "sold": "100+ terjual"
+ },
+ {
+  "name": "PROCESSOR CORE i3 4160 TRAY + FAN (Socket LGA 1150)",
+  "price": "Rp150.000",
+  "rating": "4.8",
+  "sold": "100+ terjual"
+ },
+ {
+  "name": "PROCESSOR INTEL CORE i7 4770 TRAY + FAN (Socket LGA 1150)",
+  "price": "Rp845.000",
+  "rating": "4.8",
+  "sold": "40+ terjual"
+ },
+ {
+  "name": "Prosesor Intel Core i5 4460 3.2GHz TRAY + FAN (Spcket 1150)",
+  "price": "Rp340.000",
+  "rating": "4.9",
+  "sold": "250+ terjual"
+ },
+ {
+  "name": "Prosesor Intel Core i3 3240 TRAY 3.4GHz + FAN INTEL (Socket 1155)",
+  "price": "Rp140.000",
+  "rating": "4.9",
+  "sold": "21 terjual"
+ },
+ {
+  "name": "Intel Core i5 9600K - 3.7GHz 6-Core (Socket 1151 Coffe Lake Gen 9)",
+  "price": "Rp3.888.000",
+  "rating": "5.0",
+  "sold": "30+ terjual"
+ },
+ {
+  "name": "Prosesor Intel Core i3 3240 Tray 3.4Ghz (Socket 1155) - NON FAN",
+  "price": "Rp115.000",
+  "rating": "N/A",
+  "sold": "50+ terjual"
+ },
+ {
+  "name": "Intel Core 2 Duo E7500 2.93GHZ TRAY NO FAN",
+  "price": "Rp64.000",
+  "rating": "N/A",
+  "sold": "7 terjual"
+ },
+ {
+  "name": "Intel Core 2 Duo E7500 2.93GHZ TRAY + FAN INTEL",
+  "price": "Rp85.000",
+  "rating": "5.0",
+  "sold": "15 terjual"
+ },
+ {
+  "name": "Prosesor Intel Core i3 2100 Tray 3.1Ghz - NON FAN",
+  "price": "Rp365.000",
+  "rating": "4.0",
+  "sold": "4 terjual"
+ },
+ {
+  "name": "Prosesor Intel Core i3 2120 Tray 3.3Ghz - NON FAN",
+  "price": "Rp95.000",
+  "rating": "4.9",
+  "sold": "30+ terjual"
+ },
+ {
+  "name": "Prosesor Intel Core 2 Duo E8400 Tray 3.0GHZ - NON FAN",
+  "price": "Rp75.000",
+  "rating": "4.8",
+  "sold": "90+ terjual"
+ },
+ {
+  "name": "Prosesor Intel Core i5 2400 Tray 3.1Ghz - Tanpa Fan",
+  "price": "Rp180.000",
+  "rating": "5.0",
+  "sold": "19 terjual"
+ },
+ {
+  "name": "Intel Core i3-7100 BOX - 3.9 Ghz 3MB Cache",
+  "price": "Rp2.529.000",
+  "rating": "N/A",
+  "sold": "250+ terjual"
+ },
+ {
+  "name": "Prosesor Intel Core i5 2400 Tray + FAN ORI INTEL (Socket 1155)",
+  "price": "Rp200.000",
+  "rating": "4.8",
+  "sold": "250+ terjual"
+ },
+ {
+  "name": "Intel Core i5-7400 BOX 3.0Ghz - KabyLake Socket 1151",
+  "price": "Rp2.832.000",
+  "rating": "5.0",
+  "sold": "100+ terjual"
+ },
+ {
+  "name": "Prosesor Core 2 Duo E8400 + Fan ORI Intel (3.0 Ghz)",
+  "price": "Rp96.000",
+  "rating": "4.8",
+  "sold": "250+ terjual"
+ },
+ {
+  "name": "Intel Dual Core G630 Tray + Fan ORI LGA 1155",
+  "price": "Rp144.000",
+  "rating": "5.0",
+  "sold": "25 terjual"
+ },
+ {
+  "name": "Intel Dual Core G620 Tray + Fan ORI LGA 1155",
+  "price": "Rp128.000",
+  "rating": "5.0",
+  "sold": "21 terjual"
+ },
+ {
+  "name": "Intel Dual Core G640 Tray + Fan ORI LGA 1155",
+  "price": "Rp165.000",
+  "rating": "N/A",
+  "sold": "30+ terjual"
+ },
+ {
+  "name": "Intel Core I3-2120 Tray + Fan ORI LGA 1155",
+  "price": "Rp125.000",
+  "rating": "4.8",
+  "sold": "250+ terjual"
+ },
+ {
+  "name": "Intel Core I3-2100 Tray + Fan ORI LGA 1155",
+  "price": "Rp385.000",
+  "rating": "N/A",
+  "sold": "30+ terjual"
+ },
+ {
+  "name": "Intel Core I5 8500 BOX 3.0Ghz (LGA 1151 COFFEE LAKE)",
+  "price": "Rp3.660.000",
+  "rating": "5.0",
+  "sold": "8 terjual"
+ },
+ {
+  "name": "Prosesor Intel Core 2 Duo E8500 Tray 3.16Ghz - NON FAN",
+  "price": "Rp165.000",
+  "rating": "N/A",
+  "sold": "30+ terjual"
+ },
+ {
+  "name": "Prosesor Core 2 Duo E8500 Tray + Fan ORI INTEL - 3.16Ghz",
+  "price": "Rp185.000",
+  "rating": "N/A",
+  "sold": "100+ terjual"
+ },
+ {
+  "name": "Intel Dual Core G3260 BOX 3.3Ghz (Socket 1150)",
+  "price": "Rp1.095.000",
+  "rating": "N/A",
+  "sold": "100+ terjual"
+ },
+ {
+  "name": "Intel Core i5-4690 BOX 3.5Ghz (Socket 1150)",
+  "price": "Rp3.070.000",
+  "rating": "5.0",
+  "sold": "3 terjual"
+ },
+ {
+  "name": "Intel Core I7 4790K BOX UP TO 4.4Ghz (Socket 1150)",
+  "price": "Rp4.625.000",
+  "rating": "5.0",
+  "sold": "1 terjual"
+ },
+ {
+  "name": "Intel Core I5-6600K BOX NO FAN Skylake 1151",
+  "price": "Rp4.085.000",
+  "rating": "N/A",
+  "sold": "22 terjual"
+ },
+ {
+  "name": "Intel Core I5-6600 BOX + FAN Skylake 1151",
+  "price": "Rp3.750.000",
+  "rating": "5.0",
+  "sold": "17 terjual"
+ },
+ {
+  "name": "Intel Core I5-6400 BOX + FAN Skylake 1151",
+  "price": "Rp2.865.000",
+  "rating": "4.9",
+  "sold": "40+ terjual"
+ },
+ {
+  "name": "Intel Core I5-6500 BOX + FAN Skylake 1151",
+  "price": "Rp3.330.000",
+  "rating": "5.0",
+  "sold": "50+ terjual"
+ },
+ {
+  "name": "Intel Prosesor Core I3 4160 BOX LGA 1150",
+  "price": "Rp1.975.000",
+  "rating": "5.0",
+  "sold": "16 terjual"
+ },
+ {
+  "name": "Intel Prosesor Core I3 4150 BOX LGA 1150",
+  "price": "Rp1.570.000",
+  "rating": "N/A",
+  "sold": "11 terjual"
+ },
+ {
+  "name": "Intel Prosesor Core I3 3250 BOX LGA 1155",
+  "price": "Rp1.180.000",
+  "rating": "N/A",
+  "sold": "22 terjual"
+ },
+ {
+  "name": "Intel Prosesor G3250 Dual Core BOX LGA 1150",
+  "price": "Rp810.000",
+  "rating": "N/A",
+  "sold": "100+ terjual"
+ }
+]

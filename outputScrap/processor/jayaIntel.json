@@ -1,0 +1,404 @@
+[
+ {
+  "name": "Processor Intel Core I9 14900KS Box Raptor Lake Socket LGA 1700",
+  "price": "Rp12.400.000",
+  "rating": "N/A",
+  "sold": "N/A"
+ },
+ {
+  "name": "Processor Intel Core I9 14900F Box Raptor Lake Socket LGA 1700",
+  "price": "Rp9.945.000",
+  "rating": "N/A",
+  "sold": "N/A"
+ },
+ {
+  "name": "Processor Intel Core I9 14900 Box Raptor Lake Socket LGA 1700",
+  "price": "Rp10.190.000",
+  "rating": "N/A",
+  "sold": "N/A"
+ },
+ {
+  "name": "Processor Intel Core I7 14700F Box Raptor Lake Socket LGA 1700",
+  "price": "Rp6.455.000",
+  "rating": "N/A",
+  "sold": "N/A"
+ },
+ {
+  "name": "Processor Intel Core I7 14700 Box Raptor Lake Socket LGA 1700",
+  "price": "Rp7.135.000",
+  "rating": "N/A",
+  "sold": "N/A"
+ },
+ {
+  "name": "Processor Intel Core I5 14500 Box Raptor Lake Socket LGA 1700",
+  "price": "Rp4.305.000",
+  "rating": "5.0",
+  "sold": "7 terjual"
+ },
+ {
+  "name": "Processor Intel Core I5 14400F Box Raptor Lake Socket LGA 1700",
+  "price": "Rp3.660.000",
+  "rating": "5.0",
+  "sold": "1 terjual"
+ },
+ {
+  "name": "Processor Intel Core I5 14400 Box Raptor Lake Socket LGA 1700",
+  "price": "Rp4.099.000",
+  "rating": "N/A",
+  "sold": "N/A"
+ },
+ {
+  "name": "Processor Intel Core I3 14100F Box Raptor Lake Socket LGA 1700",
+  "price": "Rp2.145.000",
+  "rating": "N/A",
+  "sold": "N/A"
+ },
+ {
+  "name": "Processor Intel Core I3 14100 Box Raptor Lake Socket LGA 1700",
+  "price": "Rp2.600.000",
+  "rating": "N/A",
+  "sold": "N/A"
+ },
+ {
+  "name": "Processor Intel Core I5 14600KF Box Raptor Lake Socket LGA 1700",
+  "price": "Rp5.165.000",
+  "rating": "5.0",
+  "sold": "1 terjual"
+ },
+ {
+  "name": "Processor Intel Core I5 14600K Box Raptor Lake Socket LGA 1700",
+  "price": "Rp5.350.000",
+  "rating": "5.0",
+  "sold": "2 terjual"
+ },
+ {
+  "name": "Processor Intel Core I7 14700KF Box Raptor Lake Socket LGA 1700",
+  "price": "Rp6.490.000",
+  "rating": "N/A",
+  "sold": "2 terjual"
+ },
+ {
+  "name": "Processor Intel Core I9 14900KF Box Raptor Lake Socket LGA 1700",
+  "price": "Rp8.980.000",
+  "rating": "N/A",
+  "sold": "N/A"
+ },
+ {
+  "name": "Processor Intel Core I7 14700K Box Raptor Lake Socket LGA 1700",
+  "price": "Rp7.565.000",
+  "rating": "5.0",
+  "sold": "3 terjual"
+ },
+ {
+  "name": "Processor Intel Core I9 14900K Box Raptor Lake Socket LGA 1700",
+  "price": "Rp10.219.000",
+  "rating": "N/A",
+  "sold": "N/A"
+ },
+ {
+  "name": "Processor Intel Core I9 13900KS Box Raptor Lake Socket LGA 1700",
+  "price": "Rp9.445.000",
+  "rating": "N/A",
+  "sold": "N/A"
+ },
+ {
+  "name": "Processor Intel Core I9 13900 Box Raptor Lake Socket LGA 1700",
+  "price": "Rp10.399.000",
+  "rating": "N/A",
+  "sold": "N/A"
+ },
+ {
+  "name": "Processor Intel Core I5 13500 Box Raptor Lake Socket LGA 1700",
+  "price": "Rp4.330.000",
+  "rating": "5.0",
+  "sold": "20 terjual"
+ },
+ {
+  "name": "Processor Intel Core I9 13900F Box Raptor Lake Socket LGA 1700",
+  "price": "Rp9.920.000",
+  "rating": "5.0",
+  "sold": "6 terjual"
+ },
+ {
+  "name": "Processor Intel Core I3 13100F Box Raptor Lake Socket LGA 1700",
+  "price": "Rp1.929.000",
+  "rating": "5.0",
+  "sold": "7 terjual"
+ },
+ {
+  "name": "Processor Intel Core I3 13100 Box Raptor Lake Socket LGA 1700",
+  "price": "Rp2.580.000",
+  "rating": "5.0",
+  "sold": "6 terjual"
+ },
+ {
+  "name": "Processor Intel Core I7 13700 Box Raptor Lake Socket LGA 1700",
+  "price": "Rp6.920.000",
+  "rating": "N/A",
+  "sold": "1 terjual"
+ },
+ {
+  "name": "Processor Intel Core I7 13700F Box Raptor Lake Socket LGA 1700",
+  "price": "Rp6.440.000",
+  "rating": "5.0",
+  "sold": "6 terjual"
+ },
+ {
+  "name": "Processor Intel Core I5 13400F Box Raptor Lake Socket LGA 1700",
+  "price": "Rp3.150.000",
+  "rating": "4.9",
+  "sold": "21 terjual"
+ },
+ {
+  "name": "Processor Intel Core I5 13400 Box Raptor Lake Socket LGA 1700",
+  "price": "Rp4.000.000",
+  "rating": "5.0",
+  "sold": "11 terjual"
+ },
+ {
+  "name": "Processor Intel Core I9 13900K Box Raptor Lake Socket LGA 1700",
+  "price": "Rp9.380.000",
+  "rating": "N/A",
+  "sold": "N/A"
+ },
+ {
+  "name": "Processor Intel Core I9 13900KF Box Raptor Lake Socket LGA 1700",
+  "price": "Rp9.750.000",
+  "rating": "5.0",
+  "sold": "3 terjual"
+ },
+ {
+  "name": "Processor Intel Core I7 13700K Box Raptor Lake Socket LGA 1700",
+  "price": "Rp7.330.000",
+  "rating": "5.0",
+  "sold": "7 terjual"
+ },
+ {
+  "name": "Processor Intel Core I7 13700KF Box Raptor Lake Socket LGA 1700",
+  "price": "Rp7.050.000",
+  "rating": "N/A",
+  "sold": "2 terjual"
+ },
+ {
+  "name": "Processor Intel Core I5 13600K Box Raptor Lake Socket LGA 1700",
+  "price": "Rp5.575.000",
+  "rating": "N/A",
+  "sold": "1 terjual"
+ },
+ {
+  "name": "Processor Intel Core I5 13600KF Box Raptor Lake Socket LGA 1700",
+  "price": "Rp5.125.000",
+  "rating": "N/A",
+  "sold": "4 terjual"
+ },
+ {
+  "name": "Processor Intel Core I3 12100 Box Alder Lake Socket LGA 1700",
+  "price": "Rp1.855.000",
+  "rating": "5.0",
+  "sold": "250+ terjual"
+ },
+ {
+  "name": "Processor Intel Core I7 12700 Box Alder Lake Socket LGA 1700",
+  "price": "Rp4.585.000",
+  "rating": "4.5",
+  "sold": "10 terjual"
+ },
+ {
+  "name": "Processor Intel Pentium Gold G7400 Box Alder Lake Socket LGA 1700",
+  "price": "Rp1.555.000",
+  "rating": "5.0",
+  "sold": "15 terjual"
+ },
+ {
+  "name": "Processor Intel Core I5 11600 Box Rocket Lake Socket LGA 1200",
+  "price": "Rp4.210.000",
+  "rating": "5.0",
+  "sold": "1 terjual"
+ },
+ {
+  "name": "Processor Intel Core I9 12900F Box Alder Lake Socket LGA 1700",
+  "price": "Rp7.840.000",
+  "rating": "N/A",
+  "sold": "1 terjual"
+ },
+ {
+  "name": "Processor Intel Core I9 12900 Box Alder Lake Socket LGA 1700",
+  "price": "Rp8.290.000",
+  "rating": "N/A",
+  "sold": "N/A"
+ },
+ {
+  "name": "Processor Intel Core I5 12600 Box Alder Lake Socket LGA 1700",
+  "price": "Rp4.380.000",
+  "rating": "N/A",
+  "sold": "2 terjual"
+ },
+ {
+  "name": "Processor Intel Core I5 12400F Box Alder Lake Socket LGA 1700",
+  "price": "Rp1.899.000",
+  "rating": "5.0",
+  "sold": "100+ terjual"
+ },
+ {
+  "name": "Processor Intel Core I3 12100F Box Alder Lake Socket LGA 1700",
+  "price": "Rp1.349.000",
+  "rating": "5.0",
+  "sold": "750+ terjual"
+ },
+ {
+  "name": "Processor Intel Core I5 12400 Box Alder Lake Socket LGA 1700",
+  "price": "Rp2.429.000",
+  "rating": "5.0",
+  "sold": "60+ terjual"
+ },
+ {
+  "name": "Processor Intel Core I7 12700F Box Alder Lake Socket LGA 1700",
+  "price": "Rp4.165.000",
+  "rating": "5.0",
+  "sold": "15 terjual"
+ },
+ {
+  "name": "Processor Intel Core I9 12900KF Box Alder Lake Socket LGA 1700",
+  "price": "Rp6.390.000",
+  "rating": "5.0",
+  "sold": "7 terjual"
+ },
+ {
+  "name": "Processor Intel Core I5 12600KF Box Alder Lake Socket LGA 1700",
+  "price": "Rp2.935.000",
+  "rating": "5.0",
+  "sold": "4 terjual"
+ },
+ {
+  "name": "Processor Intel Core I9 12900K Box Alder Lake Socket LGA 1700",
+  "price": "Rp6.860.000",
+  "rating": "N/A",
+  "sold": "1 terjual"
+ },
+ {
+  "name": "Processor Intel Core I7 12700K Box Alder Lake Socket LGA 1700",
+  "price": "Rp4.961.000",
+  "rating": "4.8",
+  "sold": "5 terjual"
+ },
+ {
+  "name": "Processor Intel Core I5 12600K Box Alder Lake Socket LGA 1700",
+  "price": "Rp3.400.000",
+  "rating": "N/A",
+  "sold": "6 terjual"
+ },
+ {
+  "name": "Processor Intel Core I7 12700KF Box Alder Lake Socket LGA 1700",
+  "price": "Rp4.490.000",
+  "rating": "N/A",
+  "sold": "2 terjual"
+ },
+ {
+  "name": "Processor Intel Pentium Gold G6400 Box Coffee Lake Socket LGA L200",
+  "price": "Rp1.175.000",
+  "rating": "5.0",
+  "sold": "100+ terjual"
+ },
+ {
+  "name": "Processor Intel Core I3 10105 Box Comet Lake Socket LGA 1200",
+  "price": "Rp1.710.000",
+  "rating": "5.0",
+  "sold": "250+ terjual"
+ },
+ {
+  "name": "Processor Intel Pentium Gold G6405 Box Comet Lake Socket LGA 1200",
+  "price": "Rp1.175.000",
+  "rating": "5.0",
+  "sold": "250+ terjual"
+ },
+ {
+  "name": "Processor Intel Core I7 11700F Box Rocket Lake Socket LGA 1200",
+  "price": "Rp4.035.000",
+  "rating": "5.0",
+  "sold": "50+ terjual"
+ },
+ {
+  "name": "Processor Intel Core I5 11600KF Box Rocket Lake Socket LGA 1200",
+  "price": "Rp3.943.000",
+  "rating": "N/A",
+  "sold": "1 terjual"
+ },
+ {
+  "name": "Processor Intel Core I5 11400F Box Rocket Lake Socket LGA 1200",
+  "price": "Rp1.790.000",
+  "rating": "5.0",
+  "sold": "100+ terjual"
+ },
+ {
+  "name": "Processor Intel Core I7 11700KF Box Rocket Lake Socket LGA 1200",
+  "price": "Rp5.675.000",
+  "rating": "3.7",
+  "sold": "3 terjual"
+ },
+ {
+  "name": "Processor Intel Core I5 11400 Box Rocket Lake Socket LGA 1200",
+  "price": "Rp2.145.000",
+  "rating": "5.0",
+  "sold": "90+ terjual"
+ },
+ {
+  "name": "Processor Intel Core I3 10105F Box Comet Lake Socket LGA 1200",
+  "price": "Rp1.315.000",
+  "rating": "5.0",
+  "sold": "1rb+ terjual"
+ },
+ {
+  "name": "Processor Intel Core I3 10100F Box Comet Lake Socket LGA 1200",
+  "price": "Rp1.315.000",
+  "rating": "5.0",
+  "sold": "250+ terjual"
+ },
+ {
+  "name": "Processor Intel Core I7 10700F Box Comet Lake Socket LGA 1200",
+  "price": "Rp4.170.000",
+  "rating": "5.0",
+  "sold": "250+ terjual"
+ },
+ {
+  "name": "Processor Intel Core I5 10400F Box Comet Lake Socket LGA 1200",
+  "price": "Rp1.649.000",
+  "rating": "5.0",
+  "sold": "1rb+ terjual"
+ },
+ {
+  "name": "Processor Intel Core I7 10700 Box Comet Lake Socket LGA 1200",
+  "price": "Rp4.450.000",
+  "rating": "5.0",
+  "sold": "100+ terjual"
+ },
+ {
+  "name": "Processor Intel Core I5 10400 Box Comet Lake Socket LGA 1200",
+  "price": "Rp2.420.000",
+  "rating": "4.9",
+  "sold": "250+ terjual"
+ },
+ {
+  "name": "Processor Intel Core I3 10100 Box Comet Lake Socket LGA 1200",
+  "price": "Rp1.710.000",
+  "rating": "4.9",
+  "sold": "250+ terjual"
+ },
+ {
+  "name": "Processor Intel Core I5 10600K Avengers Box Comet Lake Socket LGA 1200",
+  "price": "Rp3.650.000",
+  "rating": "5.0",
+  "sold": "15 terjual"
+ },
+ {
+  "name": "Processor Intel Core I5 9500F Box Coffee Lake Socket LGA 1151",
+  "price": "Rp2.530.000",
+  "rating": "4.2",
+  "sold": "8 terjual"
+ },
+ {
+  "name": "Processor Intel Core I5 9600 Box Coffee Lake Socket LGA 1151",
+  "price": "Rp3.255.000",
+  "rating": "5.0",
+  "sold": "4 terjual"
+ }
+]

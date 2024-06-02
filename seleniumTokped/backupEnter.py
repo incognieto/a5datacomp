@@ -7,8 +7,9 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.action_chains import ActionChains
 
-url = 'https://www.tokopedia.com/bzones/etalase/processor-intel'
+url = 'https://www.tokopedia.com/enterkomputer/etalase/processor-intel'
 driver = webdriver.Chrome()
 driver.get(url)
 
@@ -47,16 +48,25 @@ while True:
                 }
             )
 
-    if currentPage == 2:
+    if currentPage == 3:
         break
 
-    driver.find_element(By.CSS_SELECTOR, "a[data-testid='btnShopProductPageNext']").click()
+    # Wait for the "Next Page" button to be clickable
+    next_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "a[data-testid='btnShopProductPageNext']")))
+
+    # Scroll the button into view
+    actions = ActionChains(driver)
+    actions.move_to_element(next_button).perform()
+
+    # Click the button using JavaScript
+    driver.execute_script("arguments[0].click();", next_button)
+
     currentPage += 1
 
 df = pd.DataFrame(data)
 print(df)
 
-with open('bzonesIntel.json', 'w', encoding='utf-8') as json_file:
+with open('enterIntel.json', 'w', encoding='utf-8') as json_file:
     json.dump(data, json_file, indent=1, ensure_ascii=False)
 
 driver.quit()
