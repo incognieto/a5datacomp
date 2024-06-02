@@ -9,7 +9,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
 
-url = 'https://www.tokopedia.com/bzones/etalase/vga-nvidia'
+url = 'https://www.tokopedia.com/enterkomputer/etalase/harddisk-internal'
 driver = webdriver.Chrome()
 driver.get(url)
 
@@ -48,7 +48,7 @@ while True:
                 }
             )
 
-    if currentPage == 2:
+    if currentPage == 3:
         break
 
     # Wait for the "Next Page" button to be clickable
@@ -66,7 +66,7 @@ while True:
 df = pd.DataFrame(data)
 print(df)
 
-with open('bzonesVgaNvidia.json', 'w', encoding='utf-8') as json_file:
+with open('enterHdd.json', 'w', encoding='utf-8') as json_file:
     json.dump(data, json_file, indent=1, ensure_ascii=False)
 
 driver.quit()
