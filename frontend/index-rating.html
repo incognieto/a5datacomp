@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Visualisasi Data Produk Terjual</title>
+  <title>Visualisasi Data Rating Produk</title>
   <script src="https://cdn.plot.ly/plotly-2.8.0.min.js"></script>
   <style>
     body {
@@ -49,7 +49,7 @@
   </style>
 </head>
 <body>
-  <h1>Visualisasi Data Produk Terjual</h1>
+  <h1>Visualisasi Data Rating Produk</h1>
   
   <div id="input-container">
     <div>
@@ -64,6 +64,10 @@
       <label><input type="checkbox" value="pie-chart" checked onclick="toggleChart('pie-chart-container')"> Pie Chart</label>
       <label><input type="checkbox" value="line-chart" checked onclick="toggleChart('line-chart-container')"> Line Chart</label>
       <label><input type="checkbox" value="scatter-chart" checked onclick="toggleChart('scatter-chart-container')"> Scatter Chart</label>
+      <label><input type="checkbox" value="histogram" checked onclick="toggleChart('histogram-container')"> Histogram</label>
+      <label><input type="checkbox" value="box-plot" checked onclick="toggleChart('box-plot-container')"> Box Plot</label>
+      <label><input type="checkbox" value="heatmap" checked onclick="toggleChart('heatmap-container')"> Heatmap</label>
+      <label><input type="checkbox" value="bubble-chart" checked onclick="toggleChart('bubble-chart-container')"> Bubble Chart</label>
     </div>
   </div>
 
@@ -71,15 +75,19 @@
   <div id="pie-chart-container" class="chart-container" style="display: block;"></div>
   <div id="line-chart-container" class="chart-container" style="display: block;"></div>
   <div id="scatter-chart-container" class="chart-container" style="display: block;"></div>
+  <div id="histogram-container" class="chart-container" style="display: block;"></div>
+  <div id="box-plot-container" class="chart-container" style="display: block;"></div>
+  <div id="heatmap-container" class="chart-container" style="display: block;"></div>
+  <div id="bubble-chart-container" class="chart-container" style="display: block;"></div>
   
   <div id="table-container">
-    <h2>Data Penjualan Detail</h2>
+    <h2>Data Rating Detail</h2>
     <table id="sales-table">
       <thead>
         <tr>
           <th>Nama Toko</th>
           <th>Jenis Prosesor</th>
-          <th>Jumlah Terjual</th>
+          <th>Rating</th>
         </tr>
       </thead>
       <tbody>
@@ -89,16 +97,34 @@
   </div>
 
   <script>
-    // Fungsi untuk mengekstrak jumlah terjual dari file JSON
-    function getTotalSold(data) {
-      let totalSold = 0;
+    // Fungsi untuk mengekstrak rating rata-rata dari file JSON
+    function getAverageRating(data) {
+      let totalRating = 0;
+      let count = 0;
       for (const item of data) {
-        if (item.sold && item.sold !== 'N/A') {
-          const soldCount = parseInt(item.sold.replace(/\D/g, ''));
-          totalSold += isNaN(soldCount) ? 0 : soldCount;
+        if (item.rating && item.rating !== 'N/A') {
+          const ratingValue = parseFloat(item.rating);
+          if (!isNaN(ratingValue)) {
+            totalRating += ratingValue;
+            count++;
+          }
         }
       }
-      return totalSold;
+      return count === 0 ? 0 : (totalRating / count).toFixed(2);
+    }
+
+    // Fungsi untuk mengekstrak semua rating dari file JSON
+    function getAllRatings(data) {
+      const ratings = [];
+      for (const item of data) {
+        if (item.rating && item.rating !== 'N/A') {
+          const ratingValue = parseFloat(item.rating);
+          if (!isNaN(ratingValue)) {
+            ratings.push(ratingValue);
+          }
+        }
+      }
+      return ratings;
     }
 
     // Fungsi untuk membaca file JSON dan mendapatkan data
@@ -120,11 +146,11 @@
       const amdBZonesData = await fetchData('../outputScrap/processor/amd_bzones.json');
 
       return {
-        'Toko Enter': { intel: getTotalSold(intelEnterData), amd: getTotalSold(amdEnterData) },
-        'Toko Expert': { intel: getTotalSold(intelExpertData), amd: getTotalSold(amdExpertData) },
-        'Toko Jaya': { intel: getTotalSold(intelJayaData), amd: getTotalSold(amdJayaData) },
-        'ITShop': { intel: getTotalSold(intelITShopData), amd: getTotalSold(amdITShopData) },
-        'BZones': { intel: getTotalSold(intelBZonesData), amd: getTotalSold(amdBZonesData) }
+        'Toko Enter': { intel: getAverageRating(intelEnterData), amd: getAverageRating(amdEnterData), ratings: getAllRatings([...intelEnterData, ...amdEnterData]) },
+        'Toko Expert': { intel: getAverageRating(intelExpertData), amd: getAverageRating(amdExpertData), ratings: getAllRatings([...intelExpertData, ...amdExpertData]) },
+        'Toko Jaya': { intel: getAverageRating(intelJayaData), amd: getAverageRating(amdJayaData), ratings: getAllRatings([...intelJayaData, ...amdJayaData]) },
+        'ITShop': { intel: getAverageRating(intelITShopData), amd: getAverageRating(amdITShopData), ratings: getAllRatings([...intelITShopData, ...amdITShopData]) },
+        'BZones': { intel: getAverageRating(intelBZonesData), amd: getAverageRating(amdBZonesData), ratings: getAllRatings([...intelBZonesData, ...amdBZonesData]) }
       };
     }
 
@@ -136,12 +162,14 @@
       const labels = [];
       const intelData = [];
       const amdData = [];
+      const allRatings = [];
 
       selectedStores.forEach(store => {
         if (data[store]) {
           labels.push(store);
-          intelData.push(data[store].intel);
-          amdData.push(data[store].amd);
+          intelData.push(parseFloat(data[store].intel));
+          amdData.push(parseFloat(data[store].amd));
+          allRatings.push(...data[store].ratings);
         }
       });
 
@@ -152,10 +180,10 @@
         type: 'bar',
         name: 'Intel',
         marker: {
-          color: 'rgba(54, 162, 235, 0.5)',
+          color: 'rgba(54, 162, 235, 0.7)',
           line: {
             color: 'rgba(54, 162, 235, 1)',
-            width: 2
+            width: 1
           }
         }
       };
@@ -166,10 +194,10 @@
         type: 'bar',
         name: 'AMD',
         marker: {
-          color: 'rgba(255, 99, 132, 0.5)',
+          color: 'rgba(255, 99, 132, 0.7)',
           line: {
             color: 'rgba(255, 99, 132, 1)',
-            width: 2
+            width: 1
           }
         }
       };
@@ -177,13 +205,13 @@
       const barData = [barTrace1, barTrace2];
 
       const barLayout = {
+        title: 'Rating Rata-Rata Prosesor',
         barmode: 'group',
         xaxis: {
           title: 'Nama Toko'
         },
         yaxis: {
-          title: 'Jumlah Terjual',
-          tickformat: ',d', // Format angka dengan koma ribuan
+          title: 'Rating Rata-Rata',
           rangemode: 'tozero' // Mulai dari sumbu Y dari nilai 0
         }
       };
@@ -191,28 +219,19 @@
       Plotly.newPlot('chart-container', barData, barLayout);
 
       // Pie Chart
-      const totalIntel = intelData.reduce((acc, val) => acc + val, 0);
-      const totalAMD = amdData.reduce((acc, val) => acc + val, 0);
-
-      const pieData = [{
-        values: [totalIntel, totalAMD],
-        labels: ['Intel', 'AMD'],
-        type: 'pie',
-        marker: {
-          colors: [
-            'rgba(54, 162, 235, 0.5)',
-            'rgba(255, 99, 132, 0.5)'
-          ],
-          line: {
-            color: 'rgba(255, 255, 255, 1)',
-            width: 2
+      const pieData = [
+        {
+          values: [intelData.reduce((a, b) => a + b, 0), amdData.reduce((a, b) => a + b, 0)],
+          labels: ['Intel', 'AMD'],
+          type: 'pie',
+          marker: {
+            colors: ['rgba(54, 162, 235, 0.7)', 'rgba(255, 99, 132, 0.7)']
           }
         }
-      }];
+      ];
 
       const pieLayout = {
-        title: 'Total Penjualan Prosesor (Keseluruhan)',
-        showlegend: true
+        title: 'Distribusi Rating Prosesor'
       };
 
       Plotly.newPlot('pie-chart-container', pieData, pieLayout);
@@ -253,14 +272,13 @@
       const lineData = [lineTrace1, lineTrace2];
 
       const lineLayout = {
-        title: 'Tren Penjualan Prosesor',
+        title: 'Tren Rating Prosesor',
         xaxis: {
           title: 'Nama Toko'
         },
         yaxis: {
-          title: 'Jumlah Terjual',
-          tickformat: ',d',
-          rangemode: 'tozero'
+          title: 'Rating Rata-Rata',
+          rangemode: 'tozero' // Mulai dari sumbu Y dari nilai 0
         }
       };
 
@@ -286,20 +304,128 @@
       const scatterData = [scatterTrace];
 
       const scatterLayout = {
-        title: 'Scatter Plot Penjualan Prosesor',
+        title: 'Scatter Plot Rating Prosesor',
         xaxis: {
-          title: 'Jumlah Terjual Intel',
-          tickformat: ',d',
+          title: 'Rating Rata-Rata Intel',
           rangemode: 'tozero'
         },
         yaxis: {
-          title: 'Jumlah Terjual AMD',
-          tickformat: ',d',
+          title: 'Rating Rata-Rata AMD',
           rangemode: 'tozero'
         }
       };
 
       Plotly.newPlot('scatter-chart-container', scatterData, scatterLayout);
+
+      // Histogram
+      const histogramTrace = {
+        x: allRatings,
+        type: 'histogram',
+        marker: {
+          color: 'rgba(54, 162, 235, 0.7)',
+          line: {
+            color: 'rgba(54, 162, 235, 1)',
+            width: 1
+          }
+        }
+      };
+
+      const histogramData = [histogramTrace];
+
+      const histogramLayout = {
+        title: 'Distribusi Rating Prosesor',
+        xaxis: {
+          title: 'Rating'
+        },
+        yaxis: {
+          title: 'Jumlah Produk'
+        }
+      };
+
+      Plotly.newPlot('histogram-container', histogramData, histogramLayout);
+
+      // Box Plot
+      const boxTrace1 = {
+        y: intelData,
+        type: 'box',
+        name: 'Intel',
+        marker: {
+          color: 'rgba(54, 162, 235, 0.7)'
+        },
+        boxpoints: 'all'
+      };
+
+      const boxTrace2 = {
+        y: amdData,
+        type: 'box',
+        name: 'AMD',
+        marker: {
+          color: 'rgba(255, 99, 132, 0.7)'
+        },
+        boxpoints: 'all'
+      };
+
+      const boxData = [boxTrace1, boxTrace2];
+
+      const boxLayout = {
+        title: 'Distribusi Rating Prosesor'
+      };
+
+      Plotly.newPlot('box-plot-container', boxData, boxLayout);
+
+      // Heatmap
+      const heatmapTrace = {
+        z: [intelData, amdData],
+        x: labels,
+        y: ['Intel', 'AMD'],
+        type: 'heatmap',
+        colorscale: 'Viridis'
+      };
+
+      const heatmapData = [heatmapTrace];
+
+      const heatmapLayout = {
+        title: 'Heatmap Rating Prosesor',
+        xaxis: {
+          title: 'Nama Toko'
+        },
+        yaxis: {
+          title: 'Jenis Prosesor'
+        }
+      };
+
+      Plotly.newPlot('heatmap-container', heatmapData, heatmapLayout);
+
+      // Bubble Chart
+      const bubbleTrace = {
+        x: labels,
+        y: amdData,
+        mode: 'markers',
+        marker: {
+          size: intelData.map(d => d * 2),
+          color: 'rgba(54, 162, 235, 0.7)',
+          line: {
+            color: 'rgba(54, 162, 235, 1)',
+            width: 1
+          }
+        },
+        text: labels
+      };
+
+      const bubbleData = [bubbleTrace];
+
+      const bubbleLayout = {
+        title: 'Bubble Chart Rating Prosesor',
+        xaxis: {
+          title: 'Nama Toko'
+        },
+        yaxis: {
+          title: 'Rating Rata-Rata AMD',
+          rangemode: 'tozero'
+        }
+      };
+
+      Plotly.newPlot('bubble-chart-container', bubbleData, bubbleLayout);
 
       // Memperbarui data pada tabel
       const tableBody = document.querySelector('#sales-table tbody');
@@ -310,12 +436,12 @@
             <tr>
               <td>${store}</td>
               <td>Intel</td>
-              <td>${intelData[index].toLocaleString()}</td>
+              <td>${intelData[index]}</td>
             </tr>
             <tr>
               <td>${store}</td>
               <td>AMD</td>
-              <td>${amdData[index].toLocaleString()}</td>
+              <td>${amdData[index]}</td>
             </tr>
           `;
           tableBody.innerHTML += rowData;
