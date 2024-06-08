@@ -1,0 +1,30 @@
+{
+ "Speaker": [
+  {
+   "name": "SPEAKER SONICGEAR Sonicbar 200P + SONIC X-AMP",
+   "price": "Rp187.000",
+   "rating": "4.9",
+   "sold": "40+ terjual",
+   "stock": "99932",
+   "tautan": "https://www.tokopedia.com/tokoexpert/speaker-sonicgear-sonicbar-200p-sonic-x-amp?extParam=src%3Dshop%26whid%3D1272955",
+   "id": "speaker_1",
+   "images": [
+    "speaker_1.jpg"
+   ],
+   "tautan_image": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2023/2/14/6e5c7ba8-ef57-4eee-a9cc-c2b8d0ed1083.jpg"
+  },
+  {
+   "name": "SonicGear Quatro V (Biru, Kuning, Merah, Hijau, Abu2)",
+   "price": "Rp175.000",
+   "rating": "N/A",
+   "sold": "100+ terjual",
+   "stock": "Stok: Habis",
+   "tautan": "https://www.tokopedia.com/tokoexpert/sonicgear-quatro-v-biru-kuning-merah-hijau-abu2?extParam=src%3Dshop",
+   "id": "speaker_2",
+   "images": [
+    "speaker_2.jpg"
+   ],
+   "tautan_image": "https://images.tokopedia.net/img/cache/500-square/product-1/2016/6/10/9126088/9126088_b43364d0-3aba-4e61-883d-a9d2ed7326f7.jpg"
+  }
+ ]
+}
