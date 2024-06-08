@@ -1,0 +1,1 @@
+ini direktori untuk halaman pengambilan data/ web scrapping
