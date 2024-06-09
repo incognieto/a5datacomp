@@ -19,8 +19,8 @@ base_url = 'https://www.tokopedia.com/it-shoponline/etalase/'
 categories = {
     'processor-amd': 'Prosesor AMD',
     'processor-intel': 'Prosesor Intel',
-    # 'vga-nvidia': 'VGA GeForce',
-    # 'vga-amd-radeon': 'VGA Radeon',
+    'vga-card': 'VGA GeForce',
+    # 'vga-card': 'VGA Radeon',
     'motherboard-intel': 'Motherboard Intel',
     'motherboard-amd': 'Motherboard AMD',
     'dram-pc-dan-laptop': 'RAM',
