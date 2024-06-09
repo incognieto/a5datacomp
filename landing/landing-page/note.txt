@@ -27,3 +27,26 @@ Komponen Komputer:
 - vga
 - psu
 - fan
+
+
+font antebas, retrokia, barranco
+/* primary color */
+    --maya-blue: #5fcdf9;
+    --gainsboro: #d9d9d9;
+    /* --white-cust: #ffffff; */
+    --medium-orchid-first: #c350f3;
+    --black-russian: #120424;
+    --black-pearl: #12121f;
+
+    /* addition color */
+    --blue-violet: #883df2;
+    --purple-heart: #4a2183;
+    --valhalla: #321659;
+    /* --medium-orchid-second: #c250f2; */
+    --persian-blue: #2714a6;
+    --steel-blue: #2a95bf;
+
+    /* gradient color */
+    --gradient: linear-gradient(to left bottom, var(--black-russian), var(--black-pearl));
+    --gradient2: linear-gradient(to bottom, var(--maya-blue), var(--persian-blue));
+    --gradient3: linear-gradient(to bottom, white, var(--gainsboro));
