@@ -14,26 +14,26 @@ options.add_argument('--no-sandbox')
 options.add_argument('--disable-dev-shm-usage')
 driver = webdriver.Chrome(options=options)
 
-base_url = 'https://www.tokopedia.com/tokoexpert/etalase/'
+base_url = 'https://www.tokopedia.com/rakitancom/etalase/'
 
 categories = {
-    'prosesor-amd': 'Prosesor AMD',
+    'processor-amd': 'Prosesor AMD',
     'prosesor-intel': 'Prosesor Intel',
-    'vga-nvidia': 'VGA GeForce',
+    'vga-nvidia-geforce': 'VGA GeForce',
     'vga-amd-radeon': 'VGA Radeon',
     'motherboard-intel': 'Motherboard Intel',
     'motherboard-amd': 'Motherboard AMD',
-    'memory-pc-longdimm': 'RAM',
+    'memory-ram-pc': 'RAM',
     'ssd': 'SSD',
-    'hdd-internal': 'HDD'
+    'harddisk-internal': 'HDD'
 
-    # 'speaker': 'Speaker' # speaker hanya digunakan untuk testing
+    # 'speaker': 'Speaker'
 }
 
 data = {category: [] for category in categories.values()}
 
 # Create a directory to save images
-image_directory = 'img/expert/'
+image_directory = 'img/rakitanofficial/'
 if not os.path.exists(image_directory):
     os.makedirs(image_directory)
 
@@ -143,7 +143,7 @@ for category, name in categories.items():
     scrape_category(base_url + category, name)
 
 # Save to a single JSON file with categorized data
-with open('data/ExpertShop.json', 'w', encoding='utf-8') as json_file: 
+with open('data/RakitanOfficialShop.json', 'w', encoding='utf-8') as json_file: 
     json.dump(data, json_file, indent=1, ensure_ascii=False)
 
 driver.quit()

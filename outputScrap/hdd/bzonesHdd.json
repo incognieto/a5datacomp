@@ -1,0 +1,38 @@
+[
+ {
+  "name": "SEAGATE 2,5\" 1TB",
+  "price": "Rp801.850",
+  "rating": "N/A",
+  "sold": "N/A"
+ },
+ {
+  "name": "WD 3,5 CAVIAR BLUE 1TB",
+  "price": "Rp824.200",
+  "rating": "N/A",
+  "sold": "3 terjual"
+ },
+ {
+  "name": "WD CAVIAR BLUE 4TB",
+  "price": "Rp1.573.250",
+  "rating": "N/A",
+  "sold": "1 terjual"
+ },
+ {
+  "name": "WD BLACK 2TB",
+  "price": "Rp1.767.500",
+  "rating": "4.5",
+  "sold": "2 terjual"
+ },
+ {
+  "name": "SEAGATE 3,5 BARACUDA 2TB",
+  "price": "Rp1.000.000",
+  "rating": "5.0",
+  "sold": "2 terjual"
+ },
+ {
+  "name": "WD 3,5 CAVIAR BLUE 2TB",
+  "price": "Rp1.046.465",
+  "rating": "5.0",
+  "sold": "3 terjual"
+ }
+]
