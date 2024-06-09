@@ -17,17 +17,17 @@ driver = webdriver.Chrome(options=options)
 base_url = 'https://www.tokopedia.com/tokoexpert/etalase/'
 
 categories = {
-    # 'prosesor-amd': 'Prosesor AMD',
-    # 'prosesor-intel': 'Prosesor Intel',
-    # 'vga-nvidia': 'VGA GeForce',
-    # 'vga-amd-radeon': 'VGA Radeon',
-    # 'motherboard-intel': 'Motherboard Intel',
-    # 'motherboard-amd': 'Motherboard AMD',
-    # 'memory-pc-longdimm': 'RAM',
-    # 'ssd': 'SSD',
-    # 'hdd-internal': 'HDD'
+    'prosesor-amd': 'Prosesor AMD',
+    'prosesor-intel': 'Prosesor Intel',
+    'vga-nvidia': 'VGA GeForce',
+    'vga-amd-radeon': 'VGA Radeon',
+    'motherboard-intel': 'Motherboard Intel',
+    'motherboard-amd': 'Motherboard AMD',
+    'memory-pc-longdimm': 'RAM',
+    'ssd': 'SSD',
+    'hdd-internal': 'HDD'
 
-    'speaker': 'Speaker'
+    # 'speaker': 'Speaker' # speaker hanya digunakan untuk testing
 }
 
 data = {category: [] for category in categories.values()}
