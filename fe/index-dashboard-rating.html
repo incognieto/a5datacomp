@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Visualisasi Data Produk Terjual</title>
+  <script src="https://cdn.plot.ly/plotly-2.8.0.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+</head>
+<body class="text-white">
+
+  <!-- Button Section  -->
+  <div class="container-fluid my-3">
+    <div class="row ">
+      <div class="col-2 offset-2">
+        <a href="./index-dashboard-sold.html"><button class="btn btn-primary btn-lg btn-block rounded-pill">by Sold</button></a>
+      </div>
+      <div class="col-2">
+        <a href="#"><button class="btn btn-primary btn-lg btn-block rounded-pill">by Rating</button></a>
+      </div>
+      <div class="col-2">
+        <a href="./index-dashboard-quantity.html"><button class="btn btn-primary btn-lg btn-block rounded-pill">by Quantity</button></a>
+      </div>
+      <div class="col-2">
+        <a href="./index-compare-tools.html"><button class="btn btn-primary btn-lg btn-block rounded-pill">Tools</button></a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container-fluid text-center">
+      <h1 class="display-4">Hi, Mate!</h1>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et malesuada fames.</p>
+  </div>
+
+  <div class="container-fluid my-5">
+    <div class="row">
+        <div class="col-3">
+          <div class="container-fluid bg-light-opacity p-3">
+            <div class="row">
+              <div id="input-container">
+                <div class="checkbox-group">
+                  <!-- <h5>Shop</h5> -->
+                  <h5>Filter Bar</h5>                   
+                  <div class="row">
+                    <input type="checkbox" id="toko-enter" value="Toko Enter" checked onclick="updateCharts()"><label for="toko-enter">Toko Enter</label>
+                    <input type="checkbox" id="toko-expert" value="Toko Expert" checked onclick="updateCharts()"><label for="toko-expert">Toko Expert</label>
+                    <input type="checkbox" id="toko-jaya" value="Toko Jaya" checked onclick="updateCharts()">
+                    <label for="toko-jaya">Toko Jaya</label>
+                    <input type="checkbox" id="itshop" value="ITShop" checked onclick="updateCharts()">
+                    <label for="itshop">ITShop</label>
+                    <input type="checkbox" id="bzones" value="BZones" checked onclick="updateCharts()">
+                    <label for="bzones">BZones</label>
+                  <!-- </div>
+                </div>
+                
+                <div class="checkbox-group">
+                  <h5>Components</h5>
+                    <div class="row"> -->
+                      <input type="checkbox" id="intel-checkbox" checked onclick="updateCharts()">
+                      <label for="intel-checkbox">Intel</label>
+                      <input type="checkbox" id="amd-checkbox" checked onclick="updateCharts()">
+                      <label for="amd-checkbox">AMD</label>
+                      <input type="checkbox" id="nvidia-checkbox" checked onclick="updateCharts()">
+                      <label for="nvidia-checkbox">NVIDIA</label>
+                      <input type="checkbox" id="radeon-checkbox" checked onclick="updateCharts()">
+                      <label for="radeon-checkbox">Radeon</label>
+                    <!-- </div>
+                </div>
+                
+                <div class="checkbox-group">
+                  <h5>Grafik Type</h5>
+                  <div class="row"> -->
+                    <input type="checkbox" id="bar-chart" value="bar-chart" checked onclick="toggleChart('chart-container')">
+                    <label for="bar-chart">Bar Chart</label>
+                    <input type="checkbox" id="pie-chart" value="pie-chart" checked onclick="toggleChart('pie-chart-container')">
+                    <label for="pie-chart">Pie Chart</label>
+                    <input type="checkbox" id="line-chart" value="line-chart" checked onclick="toggleChart('line-chart-container')">
+                    <label for="line-chart">Line Chart</label>
+                    <input type="checkbox" id="scatter-chart" value="scatter-chart" checked onclick="toggleChart('scatter-chart-container')">
+                    <label for="scatter-chart">Scatter Chart</label>
+                  </div>
+                </div>
+              </div> 
+            </div>
+          </div>
+          <div class="container-fluid my-3 p-3 bg-light-opacity text-center">
+            <h5>Visualisasi Data Produk Terjual</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et malesuada fames. Aliquet nibh praesent tristique magna sit amet purus. Enim sit amet venenatis urna cursus eget nunc scelerisque viverra. Pellentesque dignissim enim sit amet venenatis urna cursus eget. Cras semper auctor neque vitae tempus quam pellentesque nec. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo. </p>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="container-fluid bg-light-opacity p-3">
+            <div id="chart-container" class="chart-container" style="display: block;"></div>
+            <div id="pie-chart-container" class="chart-container" style="display: block;"></div>
+            <div id="line-chart-container" class="chart-container" style="display: block;"></div>
+            <div id="scatter-chart-container" class="chart-container" style="display: block;"></div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="container-fluid bg-light-opacity">
+            <div id="datetime"></div>
+          </div>
+          <div class="container-fluid p-3 my-3 bg-light-opacity text-center">
+            <div id="table-container">
+              <h5>Detail Data Penjualan</h5>
+              <table id="sales-table">
+                <thead>
+                  <tr>
+                    <th>Nama Toko</th>
+                    <th>Komponen</th>
+                    <th>Jumlah Terjual (pcs)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <!-- Data akan ditambahkan secara dinamis menggunakan JavaScript -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/scripts-rating.js"></script>
+
+</body>
+</html>

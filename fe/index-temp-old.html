@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Datasets a5! - Dashboard</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background: url('img/mesh-gradient.png') repeat-y;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    .bg-light-opacity {
+      background-color: rgba(133, 125, 125, 0.3); /* Mengatur warna background dengan opacity 0.3 */
+    }
+
+    .sidebar {
+      height: 100%;
+      width: 250px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0);
+      padding-top: 20px;
+      color: white;
+      z-index: 1;
+    }
+
+    .sidebar a {
+      padding: 10px 15px;
+      text-decoration: none;
+      font-size: 18px;
+      color: white;
+      display: block;
+    }
+
+    .sidebar a:hover {
+      background-color: #575757;
+    }
+
+    .content {
+      margin-left: 260px; /* Sama dengan lebar sidebar */
+      padding: 20px;
+    }
+
+    #datetime, #weather {
+      padding: 10px 15px;
+      text-align: center;
+      font-size: 16px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .sidebar {
+        width: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+
+      .burger-menu {
+        display: block;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        font-size: 24px;
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+        z-index: 2;
+      }
+
+      .content {
+        margin-left: 0;
+      }
+    }
+
+    .sidebar.show {
+      width: 250px;
+      padding-top: 20px;
+      transition: width 0.3s ease-in-out;
+    }
+  </style>
+</head>
+<body class="text-white">
+
+  <!-- Burger Menu Button -->
+  <button class="burger-menu" onclick="toggleSidebar()">&#9776;</button>
+
+  <!-- Sidebar Section -->
+  <div class="sidebar">
+    <div id="datetime"></div>
+    <div id="weather"></div>
+    <a href="#overview">Overview</a>
+    <a href="#chart1">Chart 1</a>
+    <a href="#chart2">Chart 2</a>
+    <a href="#chart3">Chart 3</a>
+    <a href="#chart4">Chart 4</a>
+  </div>
+
+  <!-- Content Section -->
+  <div class="content">
+    <!-- Konten lainnya -->
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- JavaScript for Date, Time, and Weather -->
+  <script>
+    function updateDateTime() {
+      const now = new Date();
+      const datetime = now.toLocaleString();
+      document.getElementById('datetime').innerHTML = datetime;
+    }
+
+    function updateWeather() {
+      const apiKey = 'YOUR_API_KEY'; // Ganti dengan API Key dari OpenWeatherMap
+      const city = 'Jakarta'; // Ganti dengan kota Anda
+
+      fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`)
+        .then(response => response.json())
+        .then(data => {
+          const temp = data.main.temp;
+          const weatherDesc = data.weather[0].description;
+          const weatherIcon = data.weather[0].icon;
+          const weatherHTML = `
+            <img src="https://openweathermap.org/img/wn/${weatherIcon}@2x.png" alt="Weather Icon">
+            <p>${temp}°C, ${weatherDesc}</p>
+          `;
+          document.getElementById('weather').innerHTML = weatherHTML;
+        })
+        .catch(error => console.log('Error fetching weather data:', error));
+    }
+
+    // Update Date and Time every second
+    setInterval(updateDateTime, 1000);
+
+    // Update Weather once on page load
+    updateWeather();
+
+    // Toggle Sidebar Function
+    function toggleSidebar() {
+      const sidebar = document.querySelector('.sidebar');
+      sidebar.classList.toggle('show');
+    }
+  </script>
+</body>
+</html>
