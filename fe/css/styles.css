@@ -1,0 +1,102 @@
+body {
+  background: url('../img/mesh-gradient.png') repeat-y;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1, h2 {
+  text-align: center;
+  /* color: #007bff; */
+}
+
+.chart-container {
+  width: 60%;
+  height: 400px;
+  margin: 20px auto;
+}
+
+#sales-table {
+  width: 60%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#sales-table th, #sales-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+#sales-table th {
+  /* background-color: #007bff; */
+  color: #fff;
+  text-align: center;
+}
+
+#sales-table td {
+  text-align: center;
+}
+
+#input-container {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+#input-container label {
+  /* margin: 0 10px; */
+  margin: 1%;
+  font-size: 16px;
+  /* color: #000000; */
+}
+
+.checkbox-group label {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  /* border: 2px solid #007bff; */
+  border-radius: 10%;
+  cursor: pointer;
+  user-select: none;
+  background-color: white;
+  color: black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.checkbox-group input[type="checkbox"] {
+  display: none;
+}
+
+.checkbox-group input[type="checkbox"]:checked + label {
+  background-color: #000000;
+  color: white;
+  position: relative;
+  /* font-color: white; */
+}
+
+.checkbox-group input[type="checkbox"]:checked + label::after {
+  /* content: '(x)'; */
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 16px;
+  color: white;
+} 
+
+.bg-light-opacity {
+  background-color: rgba(133, 125, 125, 0.3); /* Mengatur warna background dengan opacity 0.3 */
+  border-radius: 10%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#datetime, #weather {
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 16px;
+}
