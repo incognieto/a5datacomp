@@ -92,7 +92,7 @@ async function getData() {
       }
 
       // Update bar chart
-      Plotly.newPlot('chart-container', [
+      Plotly.newPlot('bar-chart-container', [
         { x: labels, y: values.intel, type: 'bar', name: 'Intel' },
         { x: labels, y: values.amd, type: 'bar', name: 'AMD' },
         { x: labels, y: values.nvidia, type: 'bar', name: 'NVIDIA' },
@@ -142,13 +142,10 @@ async function getData() {
       ]);
     }
 
-    // Fungsi untuk toggle visibility dari chart
-    function toggleChart(chartId) {
-      const charts = document.getElementsByClassName('chart-container');
-      for (let i = 0; i < charts.length; i++) {
-        charts[i].style.display = 'none';
-      }
-      document.getElementById(chartId).style.display = 'block';
+    // Fungsi untuk memperbarui visibilitas chart
+    function updateChartVisibility(chartId) {
+      const chart = document.getElementById(chartId);
+      chart.style.display = chart.style.display === 'block' ? 'none' : 'block';
     }
 
     // Fungsi untuk menampilkan tanggal dan waktu saat ini

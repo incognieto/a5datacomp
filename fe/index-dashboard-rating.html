@@ -9,23 +9,39 @@
 </head>
 <body class="text-white">
 
-  <!-- Button Section  -->
-  <div class="container-fluid my-3">
-    <div class="row ">
-      <div class="col-2 offset-2">
-        <a href="./index-dashboard-sold.html"><button class="btn btn-primary btn-lg btn-block rounded-pill">by Sold</button></a>
-      </div>
-      <div class="col-2">
-        <a href="#"><button class="btn btn-primary btn-lg btn-block rounded-pill">by Rating</button></a>
-      </div>
-      <div class="col-2">
-        <a href="./index-dashboard-quantity.html"><button class="btn btn-primary btn-lg btn-block rounded-pill">by Quantity</button></a>
-      </div>
-      <div class="col-2">
-        <a href="./index-compare-tools.html"><button class="btn btn-primary btn-lg btn-block rounded-pill">Tools</button></a>
-      </div>
+  <!-- Navbar Section -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light-opacity">
+    <a class="navbar-brand text-white" href="#">Datasets a5!</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Features</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Visual
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="index-dashboard-sold.html">Sold</a>
+            <a class="dropdown-item" href="index-dashboard-rating.html">Rating</a>
+            <a class="dropdown-item" href="index-dashboard-quantity.html">Quantity</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Tool</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Contact</a>
+        </li>
+      </ul>
     </div>
-  </div>
+  </nav>
   
   <div class="container-fluid text-center">
       <h1 class="display-4">Hi, Mate!</h1>
@@ -70,13 +86,13 @@
                 <div class="checkbox-group">
                   <h5>Grafik Type</h5>
                   <div class="row"> -->
-                    <input type="checkbox" id="bar-chart" value="bar-chart" checked onclick="toggleChart('chart-container')">
+                    <input type="checkbox" id="bar-chart" value="bar-chart" checked onclick="updateChartVisibility('bar-chart-container')">
                     <label for="bar-chart">Bar Chart</label>
-                    <input type="checkbox" id="pie-chart" value="pie-chart" checked onclick="toggleChart('pie-chart-container')">
+                    <input type="checkbox" id="pie-chart" value="pie-chart" checked onclick="updateChartVisibility('pie-chart-container')">
                     <label for="pie-chart">Pie Chart</label>
-                    <input type="checkbox" id="line-chart" value="line-chart" checked onclick="toggleChart('line-chart-container')">
+                    <input type="checkbox" id="line-chart" value="line-chart" checked onclick="updateChartVisibility('line-chart-container')">
                     <label for="line-chart">Line Chart</label>
-                    <input type="checkbox" id="scatter-chart" value="scatter-chart" checked onclick="toggleChart('scatter-chart-container')">
+                    <input type="checkbox" id="scatter-chart" value="scatter-chart" checked onclick="updateChartVisibility('scatter-chart-container')">
                     <label for="scatter-chart">Scatter Chart</label>
                   </div>
                 </div>
@@ -90,7 +106,7 @@
         </div>
         <div class="col-6">
           <div class="container-fluid bg-light-opacity p-3">
-            <div id="chart-container" class="chart-container" style="display: block;"></div>
+            <div id="bar-chart-container" class="chart-container" style="display: block;"></div>
             <div id="pie-chart-container" class="chart-container" style="display: block;"></div>
             <div id="line-chart-container" class="chart-container" style="display: block;"></div>
             <div id="scatter-chart-container" class="chart-container" style="display: block;"></div>
@@ -128,4 +144,33 @@
   <script src="js/scripts-rating.js"></script>
 
 </body>
+<!-- Footer -->
+<footer class="footer bg-light-opacity text-white">
+  <div class="container-fluid pt-5">
+    <div class="row m-3">
+      <div class="col-3">
+        <h5>Footer</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="col-3">
+        <h5>Product</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="col-3">
+        <h5>Useful Link</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="col-3">
+        <h5>Address</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-12 mt-3">
+        <p>&copy; 2024 Datasets a5! All Rights Reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
 </html>
