@@ -38,11 +38,7 @@ A5DataComp adalah platform yang menyajikan hasil visualisasi data dari komponen 
     ```
 4. Jalankan server:
     ```bash
-    flask run
-    ```
-   atau
-    ```bash
-    python manage.py runserver
+    localhost
     ```
 
 ## Kontribusi
