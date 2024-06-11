@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AG Grid Example</title>
+    <link rel="stylesheet" href="https://unpkg.com/ag-grid-community/styles/ag-grid.css">
+    <link rel="stylesheet" href="https://unpkg.com/ag-grid-community/styles/ag-theme-alpine.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        #myGrid {
+            height: 600px;
+            width: 100%;
+        }
+        #searchBox {
+            margin-bottom: 10px;
+            width: 300px;
+            height: 30px;
+            padding: 5px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body class="text-white">
+
+  <!-- Navbar Section -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light-opacity">
+    <a class="navbar-brand text-white" href="#">Datasets a5!</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link text-white" href="./index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Visual
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="index-dashboard-sold.html">Sold</a>
+            <a class="dropdown-item" href="index-dashboard-rating.html">Rating</a>
+            <a class="dropdown-item" href="index-dashboard-quantity.html">Quantity</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Tool</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+    <div class="container-fluid text-center">
+        <h1 class="display-4">Hi, Friends!</h1>
+        <p class="lead">We then process and analyze this data to create interactive visualizations that help users compare products based on crucial metrics such as the number of units sold, customer ratings, and the quantity of products available in each store. Our goal is to offer a clear and comprehensive view of the market, enabling consumers and tech enthusiasts to make informed purchasing decisions.</p>
+    </div>
+
+    <!-- <h1 class="text-center">AG Grid Example</h1> -->
+    <div class="container-fluid">
+        <div class="container-fluid bg-light-opacity p-3 mb-5">
+            <input type="text" id="searchBox" placeholder="Search..." class="form-control">
+            <div id="myGrid" class="ag-theme-alpine"></div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ag-grid-community/dist/ag-grid-community.noStyle.js"></script>
+    <script src="js/table.js"></script>
+
+</body>
+<!-- Footer -->
+<footer class="footer bg-light-opacity text-white">
+    <div class="container-fluid pt-5">
+      <div class="row m-3">
+        <div class="col-3">
+          <h5>Footer</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="col-3">
+          <h5>Product</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="col-3">
+          <h5>Useful Link</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="col-3">
+          <h5>Address</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-12 mt-3">
+          <p>&copy; 2024 Datasets a5! All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</html>

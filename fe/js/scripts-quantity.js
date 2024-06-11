@@ -34,20 +34,41 @@
         const expertData = await fetchData('../data/ExpertShop.json');
         const jayaData = await fetchData('../data/JayaPCShop.json');
         const bzonesData = await fetchData('../data/BZonesShop.json');
+        const enterData = await fetchData('../data/EnterShop.json');
+        const agresData = await fetchData('../data/AgresShop.json');
+        const imbaData = await fetchData('../data/ImbaPCShop.json');
+        const pcrakitanData = await fetchData('../data/PCRakitanShop.json');
+        const rakitanData = await fetchData('../data/RakitanOfficialShop.json');
+        const itshopData = await fetchData('../data/ITShop.json');
         
         return {
             'Toko Expert': countProducts(expertData),
             'Toko Jaya': countProducts(jayaData),
-            'BZones': countProducts(bzonesData)
+            'BZones': countProducts(bzonesData),
+            'Enter': countProducts(enterData),
+            'Agres': countProducts(agresData),
+            'Imba': countProducts(imbaData),
+            'PC Rakitan': countProducts(pcrakitanData),
+            'Rakitan': countProducts(rakitanData),
+            'IT Shop': countProducts(itshopData)
         };
     }
 
     async function updateCharts() {
         const data = await getData();
 
+        // Shop checkboxes
         const tokoExpertCheckbox = document.getElementById('toko-expert').checked;
         const tokoJayaCheckbox = document.getElementById('toko-jaya').checked;
         const bZonesCheckbox = document.getElementById('bzones').checked;
+        const enterCheckbox = document.getElementById('enter').checked;
+        const agresCheckbox = document.getElementById('agres').checked;
+        const imbaCheckbox = document.getElementById('imba').checked;
+        const pcrakitanCheckbox = document.getElementById('pcrakitan').checked;
+        const rakitanCheckbox = document.getElementById('rakitanofficial').checked;
+        const itshopCheckbox = document.getElementById('itshop').checked;
+        
+        // Component checkboxes
         const intelCheckbox = document.getElementById('intel-checkbox').checked;
         const amdCheckbox = document.getElementById('amd-checkbox').checked;
         const nvidiaCheckbox = document.getElementById('nvidia-checkbox').checked;
@@ -101,6 +122,72 @@
             if (mbAmdCheckbox) values["Motherboard AMD"].push(data['BZones']["Motherboard AMD"] || 0);
             if (ssdCheckbox) values["SSD"].push(data['BZones']["SSD"] || 0);
             if (hddCheckbox) values["HDD"].push(data['BZones']["HDD"] || 0);
+        }
+        if (enterCheckbox) {
+            labels.push('Enter');
+            if (intelCheckbox) values["Prosesor Intel"].push(data['Enter']["Prosesor Intel"] || 0);
+            if (amdCheckbox) values["Prosesor AMD"].push(data['Enter']["Prosesor AMD"] || 0);
+            if (nvidiaCheckbox) values["VGA GeForce"].push(data['Enter']["VGA GeForce"] || 0);
+            if (radeonCheckbox) values["VGA Radeon"].push(data['Enter']["VGA Radeon"] || 0);
+            if (mbIntelCheckbox) values["Motherboard Intel"].push(data['Enter']["Motherboard Intel"] || 0);
+            if (mbAmdCheckbox) values["Motherboard AMD"].push(data['Enter']["Motherboard AMD"] || 0);
+            if (ssdCheckbox) values["SSD"].push(data['Enter']["SSD"] || 0);
+            if (hddCheckbox) values["HDD"].push(data['Enter']["HDD"] || 0);
+        }
+        if (agresCheckbox) {
+            labels.push('Agres');
+            if (intelCheckbox) values["Prosesor Intel"].push(data['Agres']["Prosesor Intel"] || 0);
+            if (amdCheckbox) values["Prosesor AMD"].push(data['Agres']["Prosesor AMD"] || 0);
+            if (nvidiaCheckbox) values["VGA GeForce"].push(data['Agres']["VGA GeForce"] || 0);
+            if (radeonCheckbox) values["VGA Radeon"].push(data['Agres']["VGA Radeon"] || 0);
+            if (mbIntelCheckbox) values["Motherboard Intel"].push(data['Agres']["Motherboard Intel"] || 0);
+            if (mbAmdCheckbox) values["Motherboard AMD"].push(data['Agres']["Motherboard AMD"] || 0);
+            if (ssdCheckbox) values["SSD"].push(data['Agres']["SSD"] || 0);
+            if (hddCheckbox) values["HDD"].push(data['Agres']["HDD"] || 0);
+        }
+        if (imbaCheckbox) {
+            labels.push('Imba');
+            if (intelCheckbox) values["Prosesor Intel"].push(data['Imba']["Prosesor Intel"] || 0);
+            if (amdCheckbox) values["Prosesor AMD"].push(data['Imba']["Prosesor AMD"] || 0);
+            if (nvidiaCheckbox) values["VGA GeForce"].push(data['Imba']["VGA GeForce"] || 0);
+            if (radeonCheckbox) values["VGA Radeon"].push(data['Imba']["VGA Radeon"] || 0);
+            if (mbIntelCheckbox) values["Motherboard Intel"].push(data['Imba']["Motherboard Intel"] || 0);
+            if (mbAmdCheckbox) values["Motherboard AMD"].push(data['Imba']["Motherboard AMD"] || 0);
+            if (ssdCheckbox) values["SSD"].push(data['Imba']["SSD"] || 0);
+            if (hddCheckbox) values["HDD"].push(data['Imba']["HDD"] || 0);
+        }
+        if (pcrakitanCheckbox) {
+            labels.push('PC Rakitan');
+            if (intelCheckbox) values["Prosesor Intel"].push(data['PC Rakitan']["Prosesor Intel"] || 0);
+            if (amdCheckbox) values["Prosesor AMD"].push(data['PC Rakitan']["Prosesor AMD"] || 0);
+            if (nvidiaCheckbox) values["VGA GeForce"].push(data['PC Rakitan']["VGA GeForce"] || 0);
+            if (radeonCheckbox) values["VGA Radeon"].push(data['PC Rakitan']["VGA Radeon"] || 0);
+            if (mbIntelCheckbox) values["Motherboard Intel"].push(data['PC Rakitan']["Motherboard Intel"] || 0);
+            if (mbAmdCheckbox) values["Motherboard AMD"].push(data['PC Rakitan']["Motherboard AMD"] || 0);
+            if (ssdCheckbox) values["SSD"].push(data['PC Rakitan']["SSD"] || 0);
+            if (hddCheckbox) values["HDD"].push(data['PC Rakitan']["HDD"] || 0);
+        }
+        if (rakitanCheckbox) {
+            labels.push('Rakitan');
+            if (intelCheckbox) values["Prosesor Intel"].push(data['Rakitan']["Prosesor Intel"] || 0);
+            if (amdCheckbox) values["Prosesor AMD"].push(data['Rakitan']["Prosesor AMD"] || 0);
+            if (nvidiaCheckbox) values["VGA GeForce"].push(data['Rakitan']["VGA GeForce"] || 0);
+            if (radeonCheckbox) values["VGA Radeon"].push(data['Rakitan']["VGA Radeon"] || 0);
+            if (mbIntelCheckbox) values["Motherboard Intel"].push(data['Rakitan']["Motherboard Intel"] || 0);
+            if (mbAmdCheckbox) values["Motherboard AMD"].push(data['Rakitan']["Motherboard AMD"] || 0);
+            if (ssdCheckbox) values["SSD"].push(data['Rakitan']["SSD"] || 0);
+            if (hddCheckbox) values["HDD"].push(data['Rakitan']["HDD"] || 0);
+        }
+        if (itshopCheckbox) {
+            labels.push('IT Shop');
+            if (intelCheckbox) values["Prosesor Intel"].push(data['IT Shop']["Prosesor Intel"] || 0);
+            if (amdCheckbox) values["Prosesor AMD"].push(data['IT Shop']["Prosesor AMD"] || 0);
+            if (nvidiaCheckbox) values["VGA GeForce"].push(data['IT Shop']["VGA GeForce"] || 0);
+            if (radeonCheckbox) values["VGA Radeon"].push(data['IT Shop']["VGA Radeon"] || 0);
+            if (mbIntelCheckbox) values["Motherboard Intel"].push(data['IT Shop']["Motherboard Intel"] || 0);
+            if (mbAmdCheckbox) values["Motherboard AMD"].push(data['IT Shop']["Motherboard AMD"] || 0);
+            if (ssdCheckbox) values["SSD"].push(data['IT Shop']["SSD"] || 0);
+            if (hddCheckbox) values["HDD"].push(data['IT Shop']["HDD"] || 0);
         }
 
         // Update bar chart

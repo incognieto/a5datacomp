@@ -9,27 +9,40 @@
 </head>
 <body class="text-white">
 
-  <!-- Button Section  -->
-  <div class="container-fluid my-3">
-    <div class="row ">
-      <div class="col-2 offset-2">
-        <a href="./index-dashboard-sold.html"><button class="btn btn-primary btn-lg btn-block rounded-pill">by Sold</button></a>
-      </div>
-      <div class="col-2">
-        <a href="#"><button class="btn btn-primary btn-lg btn-block rounded-pill">by Rating</button></a>
-      </div>
-      <div class="col-2">
-        <a href="./index-dashboard-quantity.html"><button class="btn btn-primary btn-lg btn-block rounded-pill">by Quantity</button></a>
-      </div>
-      <div class="col-2">
-        <a href="./index-compare-tools.html"><button class="btn btn-primary btn-lg btn-block rounded-pill">Tools</button></a>
-      </div>
+  <!-- Navbar Section -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light-opacity">
+    <a class="navbar-brand text-white" href="#">Datasets a5!</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link text-white" href="./index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Visual
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="index-dashboard-sold.html">Sold</a>
+            <a class="dropdown-item" href="index-dashboard-rating.html">Rating</a>
+            <a class="dropdown-item" href="index-dashboard-quantity.html">Quantity</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="./index-compare-tools.html">Tool</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Contact</a>
+        </li>
+      </ul>
     </div>
-  </div>
+  </nav>
   
   <div class="container-fluid text-center">
       <h1 class="display-4">Hi, Mate!</h1>
-      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et malesuada fames.</p>
+      <p class="lead">We then process and analyze this data to create interactive visualizations that help users compare products based on crucial metrics such as the number of units sold, customer ratings, and the quantity of products available in each store. Our goal is to offer a clear and comprehensive view of the market, enabling consumers and tech enthusiasts to make informed purchasing decisions.</p>
   </div>
 
   <div class="container-fluid my-5">
@@ -42,14 +55,15 @@
                   <!-- <h5>Shop</h5> -->
                   <h5>Filter Bar</h5>                   
                   <div class="row">
-                    <input type="checkbox" id="toko-enter" value="Toko Enter" checked onclick="updateCharts()"><label for="toko-enter">Toko Enter</label>
                     <input type="checkbox" id="toko-expert" value="Toko Expert" checked onclick="updateCharts()"><label for="toko-expert">Toko Expert</label>
-                    <input type="checkbox" id="toko-jaya" value="Toko Jaya" checked onclick="updateCharts()">
-                    <label for="toko-jaya">Toko Jaya</label>
-                    <input type="checkbox" id="itshop" value="ITShop" checked onclick="updateCharts()">
-                    <label for="itshop">ITShop</label>
-                    <input type="checkbox" id="bzones" value="BZones" checked onclick="updateCharts()">
-                    <label for="bzones">BZones</label>
+                    <input type="checkbox" id="toko-jaya" value="Toko Jaya" checked onclick="updateCharts()"><label for="toko-jaya">Toko Jaya</label>
+                    <input type="checkbox" id="bzones" value="BZones" checked onclick="updateCharts()"><label for="bzones">BZones</label>
+                    <input type="checkbox" id="enter" value="Enter" checked onclick="updateCharts()"><label for="enter">Enter</label>
+                    <input type="checkbox" id="agres" value="Agres" checked onclick="updateCharts()"><label for="agres">Agres</label>
+                    <input type="checkbox" id="imba" value="Imba PC" checked onclick="updateCharts()"><label for="imba">Imba PC</label>
+                    <input type="checkbox" id="pcrakitan" value="PC Rakitan" checked onclick="updateCharts()"><label for="pcrakitan">PC Rakitan</label>
+                    <input type="checkbox" id="rakitanofficial" value="Rakitan Official" checked onclick="updateCharts()"><label for="rakitanofficial">Rakitan Official</label>
+                    <input type="checkbox" id="itshop" value="IT Shop" checked onclick="updateCharts()"><label for="itshop">IT Shop</label>
                   <!-- </div>
                 </div>
                 
@@ -64,33 +78,39 @@
                       <label for="nvidia-checkbox">NVIDIA</label>
                       <input type="checkbox" id="radeon-checkbox" checked onclick="updateCharts()">
                       <label for="radeon-checkbox">Radeon</label>
+                      <input type="checkbox" id="moboIntel-checkbox" checked onclick="updateCharts()">
+                      <label for="moboIntel-checkbox">Motherboard Intel</label>
+                      <input type="checkbox" id="moboAmd-checkbox" checked onclick="updateCharts()">
+                      <label for="moboAmd-checkbox">Motherboard AMD</label>
+                      <input type="checkbox" id="ram-checkbox" checked onclick="updateCharts()">
+                      <label for="ram-checkbox">RAM</label>
+                      <input type="checkbox" id="ssd-checkbox" checked onclick="updateCharts()">
+                      <label for="ssd-checkbox">SSD</label>
+                      <input type="checkbox" id="hdd-checkbox" checked onclick="updateCharts()">
+                      <label for="hdd-checkbox">HDD</label>
                     <!-- </div>
                 </div>
                 
                 <div class="checkbox-group">
                   <h5>Grafik Type</h5>
                   <div class="row"> -->
-                    <input type="checkbox" id="bar-chart" value="bar-chart" checked onclick="toggleChart('chart-container')">
+                    <input type="checkbox" id="bar-chart" value="bar-chart" checked onclick="updateChartVisibility('bar-chart-container')">
                     <label for="bar-chart">Bar Chart</label>
-                    <input type="checkbox" id="pie-chart" value="pie-chart" checked onclick="toggleChart('pie-chart-container')">
+                    <input type="checkbox" id="pie-chart" value="pie-chart" checked onclick="updateChartVisibility('pie-chart-container')">
                     <label for="pie-chart">Pie Chart</label>
-                    <input type="checkbox" id="line-chart" value="line-chart" checked onclick="toggleChart('line-chart-container')">
+                    <input type="checkbox" id="line-chart" value="line-chart" checked onclick="updateChartVisibility('line-chart-container')">
                     <label for="line-chart">Line Chart</label>
-                    <input type="checkbox" id="scatter-chart" value="scatter-chart" checked onclick="toggleChart('scatter-chart-container')">
+                    <input type="checkbox" id="scatter-chart" value="scatter-chart" checked onclick="updateChartVisibility('scatter-chart-container')">
                     <label for="scatter-chart">Scatter Chart</label>
                   </div>
                 </div>
               </div> 
             </div>
           </div>
-          <div class="container-fluid my-3 p-3 bg-light-opacity text-center">
-            <h5>Visualisasi Data Produk Terjual</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et malesuada fames. Aliquet nibh praesent tristique magna sit amet purus. Enim sit amet venenatis urna cursus eget nunc scelerisque viverra. Pellentesque dignissim enim sit amet venenatis urna cursus eget. Cras semper auctor neque vitae tempus quam pellentesque nec. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo. </p>
-          </div>
         </div>
         <div class="col-6">
           <div class="container-fluid bg-light-opacity p-3">
-            <div id="chart-container" class="chart-container" style="display: block;"></div>
+            <div id="bar-chart-container" class="chart-container" style="display: block;"></div>
             <div id="pie-chart-container" class="chart-container" style="display: block;"></div>
             <div id="line-chart-container" class="chart-container" style="display: block;"></div>
             <div id="scatter-chart-container" class="chart-container" style="display: block;"></div>
@@ -101,21 +121,8 @@
             <div id="datetime"></div>
           </div>
           <div class="container-fluid p-3 my-3 bg-light-opacity text-center">
-            <div id="table-container">
-              <h5>Detail Data Penjualan</h5>
-              <table id="sales-table">
-                <thead>
-                  <tr>
-                    <th>Nama Toko</th>
-                    <th>Komponen</th>
-                    <th>Jumlah Terjual (pcs)</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <!-- Data akan ditambahkan secara dinamis menggunakan JavaScript -->
-                </tbody>
-              </table>
-            </div>
+            <h5>Visualisasi Data Rating</h5>
+            <p>Visualisasi ini menyajikan data rating dari produk-produk komponen komputer yang diambil dari ulasan pelanggan di sembilan toko online. Grafik ini memungkinkan pengguna untuk melihat bagaimana setiap produk dinilai oleh konsumen. Rating biasanya mencerminkan tingkat kepuasan pengguna terhadap performa, kualitas, dan harga produk. Dengan demikian, visualisasi ini membantu calon pembeli untuk membuat keputusan yang lebih informasional berdasarkan pengalaman dan pendapat pengguna lain. Penjual juga dapat memanfaatkan data ini untuk memahami kekuatan dan kelemahan produk mereka berdasarkan feedback dari pelanggan.</p>
           </div>
         </div>
     </div>
@@ -128,4 +135,33 @@
   <script src="js/scripts-rating.js"></script>
 
 </body>
+<!-- Footer -->
+<footer class="footer bg-light-opacity text-white">
+  <div class="container-fluid pt-5">
+    <div class="row m-3">
+      <div class="col-3">
+        <h5>Footer</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="col-3">
+        <h5>Product</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="col-3">
+        <h5>Useful Link</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="col-3">
+        <h5>Address</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-12 mt-3">
+        <p>&copy; 2024 Datasets a5! All Rights Reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
 </html>
