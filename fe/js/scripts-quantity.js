@@ -1,9 +1,3 @@
-    // Lokasi data
-    // ../data/BZonesShop.json
-    // ../data/JayaPCShop.json
-    // ../data/ExpertShop.json
-
-    // const files = ['BZonesShop.json', 'JayaPCShop.json', 'ExpertShop']; // Tambahkan nama file JSON lainnya di sini
     const categoryColors = {
         "Prosesor Intel": 'blue',
         "Prosesor AMD": 'red',
@@ -15,12 +9,12 @@
         "HDD": 'pink'
     };
 
-    async function fetchData(file) {
+    async function fetchData(file) { // Fetch data dari file JSON
         const response = await fetch(file);
         return await response.json();
     }
 
-    function countProducts(data) {
+    function countProducts(data) { // Menghitung jumlah produk per kategori
         const counts = {};
         for (const category in data) {
             if (data.hasOwnProperty(category)) {
@@ -30,7 +24,7 @@
         return counts;
     }
 
-    async function getData() {
+    async function getData() { // Mengambil data dari semua toko
         const expertData = await fetchData('../data/ExpertShop.json');
         const jayaData = await fetchData('../data/JayaPCShop.json');
         const bzonesData = await fetchData('../data/BZonesShop.json');
@@ -41,7 +35,7 @@
         const rakitanData = await fetchData('../data/RakitanOfficialShop.json');
         const itshopData = await fetchData('../data/ITShop.json');
         
-        return {
+        return { // Menggabungkan data dari semua toko
             'Toko Expert': countProducts(expertData),
             'Toko Jaya': countProducts(jayaData),
             'BZones': countProducts(bzonesData),

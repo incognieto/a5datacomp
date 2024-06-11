@@ -85,7 +85,7 @@ async function getData() {
       moboAmd: getAverageRating(agresData["Motherboard AMD"]),
       ram: getAverageRating(agresData["RAM"]),
       ssd: getAverageRating(agresData["SSD"]),
-      // hdd: getAverageRating(agresData["HDD"])
+
     },
     'Imba': {
       intel: getAverageRating(imbaData["Prosesor Intel"]),
