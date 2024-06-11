@@ -10,9 +10,9 @@ h1, h2 {
 }
 
 .chart-container {
-  width: 60%;
+  /* width: 60%;
   height: 400px;
-  margin: 20px auto;
+  margin: 20px auto; */
 }
 
 #sales-table {

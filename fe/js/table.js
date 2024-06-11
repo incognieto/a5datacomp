@@ -1,4 +1,4 @@
-const jsonFiles = ['../data/ExpertShop.json', '../data/BZonesShop.json', '../data/JayaPCShop.json'];
+const jsonFiles = ['../data/ExpertShop.json', '../data/BZonesShop.json', '../data/JayaPCShop.json', '../data/EnterShop.json', '../data/AgresShop.json', '../data/ImbaPCShop.json', '../data/ITShop.json', '../data/PCRakitanShop.json', '../data/RakitanOfficialShop.json'];
 
     async function loadTable() {
         let allProducts = [];
@@ -9,7 +9,8 @@ const jsonFiles = ['../data/ExpertShop.json', '../data/BZonesShop.json', '../dat
                 for (const category in data) {
                     if (data.hasOwnProperty(category)) {
                         data[category].forEach(product => {
-                            product.store = ['ExpertShop', 'BZonesShop', 'JayaPCShop'][index];
+                            // product.store = ['ExpertShop', 'BZonesShop', 'JayaPCShop', ''][index];
+                            product.store = ['ExpertShop', 'BZonesShop', 'JayaPCShop', 'EnterShop', 'AgresShop', 'ImbaPCShop', 'ITShop', 'PCRakitanShop', 'RakitanOfficialShop'][index];
                             allProducts.push(product);
                         });
                     }

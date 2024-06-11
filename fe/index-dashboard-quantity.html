@@ -10,43 +10,40 @@
 </head>
 <body class="text-white">
 
-  <!-- Navbar Section -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light-opacity">
-    <a class="navbar-brand text-white" href="#">Datasets a5!</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#">Features</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Visual
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="index-dashboard-sold.html">Sold</a>
-            <a class="dropdown-item" href="index-dashboard-rating.html">Rating</a>
-            <a class="dropdown-item" href="index-dashboard-quantity.html">Quantity</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#">Tool</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light-opacity">
+      <a class="navbar-brand text-white" href="#">Datasets a5!</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="./index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Visual
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="index-dashboard-sold.html">Sold</a>
+              <a class="dropdown-item" href="index-dashboard-rating.html">Rating</a>
+              <a class="dropdown-item" href="index-dashboard-quantity.html">Quantity</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="./index-compare-tools.html">Tool</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   
     <div class="container-fluid text-center">
         <h1 class="display-4">Hi, Mate!</h1>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et malesuada fames.</p>
+        <p class="lead">We then process and analyze this data to create interactive visualizations that help users compare products based on crucial metrics such as the number of units sold, customer ratings, and the quantity of products available in each store. Our goal is to offer a clear and comprehensive view of the market, enabling consumers and tech enthusiasts to make informed purchasing decisions.</p>
     </div>
 
     <div class="container-fluid my-5">
@@ -61,6 +58,13 @@
                                     <input type="checkbox" id="toko-expert" checked onclick="updateCharts()"><label for="toko-expert">Toko Expert</label>
                                     <input type="checkbox" id="toko-jaya" checked onclick="updateCharts()"><label for="toko-jaya">Toko Jaya</label>
                                     <input type="checkbox" id="bzones" checked onclick="updateCharts()"><label for="bzones">BZones</label>
+                                    <input type="checkbox" id="enter" checked onclick="updateCharts()"><label for="enter">Enter</label>
+                                    <input type="checkbox" id="agres" checked onclick="updateCharts()"><label for="agres">Agres</label>
+                                    <input type="checkbox" id="imba" checked onclick="updateCharts()"><label for="imba">Imba PC</label>
+                                    <input type="checkbox" id="pcrakitan" checked onclick="updateCharts()"><label for="pcrakitan">PC Rakitan</label>
+                                    <input type="checkbox" id="rakitanofficial" checked onclick="updateCharts()"><label for="rakitanofficial">Rakitan Official</label>
+                                    <input type="checkbox" id="itshop" checked onclick="updateCharts()"><label for="itshop">IT Shop</label>
+                                     
                                     <input type="checkbox" id="intel-checkbox" checked onclick="updateCharts()"><label for="intel-checkbox">Intel</label>
                                     <input type="checkbox" id="amd-checkbox" checked onclick="updateCharts()"><label for="amd-checkbox">AMD</label>
                                     <input type="checkbox" id="nvidia-checkbox" checked onclick="updateCharts()"><label for="nvidia-checkbox">NVIDIA</label>
@@ -73,10 +77,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="container-fluid my-3 p-3 bg-light-opacity text-center">
-                    <h5>Visualisasi Data Produk Terjual</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et malesuada fames. Aliquet nibh praesent tristique magna sit amet purus. Enim sit amet venenatis urna cursus eget nunc scelerisque viverra. Pellentesque dignissim enim sit amet venenatis urna cursus eget. Cras semper auctor neque vitae tempus quam pellentesque nec. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo. </p>
                 </div>
             </div>
             <div class="col-6">
@@ -92,21 +92,8 @@
                     <div id="datetime"></div>
                 </div>
                 <div class="container-fluid p-3 my-3 bg-light-opacity text-center">
-                    <div id="table-container">
-                        <h5>Detail Data Penjualan</h5>
-                        <table id="sales-table">
-                            <thead>
-                                <tr>
-                                    <th>Nama Toko</th>
-                                    <th>Komponen</th>
-                                    <th>Jumlah Terjual (pcs)</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <!-- Data akan ditambahkan secara dinamis menggunakan JavaScript -->
-                            </tbody>
-                        </table>
-                    </div>
+                    <h5>Visualisasi Data Kuantitas Produk Tersedia</h5>
+                    <p>Visualisasi ini menggambarkan jumlah total produk dari setiap kategori yang dijual di sembilan toko online. Data ini menunjukkan seberapa banyak variasi produk yang tersedia di pasaran untuk setiap kategori komponen komputer, seperti CPU, motherboard, VGA, RAM, SSD, dan HDD. Dengan menganalisis jumlah produk yang dijual, pengguna dapat memahami seberapa kompetitif pasar untuk setiap kategori. Pembeli dapat melihat apakah ada banyak pilihan untuk suatu jenis produk tertentu, sementara penjual dapat mengevaluasi persaingan dan mengidentifikasi peluang untuk memperkenalkan produk baru atau berbeda yang mungkin belum banyak tersedia.</p>
                 </div>
             </div>
         </div>

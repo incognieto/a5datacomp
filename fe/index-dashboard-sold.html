@@ -18,10 +18,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#">Features</a>
+          <a class="nav-link text-white" href="./index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -34,7 +31,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#">Tool</a>
+          <a class="nav-link text-white" href="./index-compare-tools.html">Tool</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-white" href="#">Contact</a>
@@ -42,28 +39,10 @@
       </ul>
     </div>
   </nav>
-
-  <!-- Button Section 
-  <div class="container-fluid my-3">
-    <div class="row ">
-      <div class="col-2 offset-2">
-        <a href="#"><button class="btn btn-primary btn-lg btn-block rounded-pill">by Sold</button></a>
-      </div>
-      <div class="col-2">
-        <a href="./index-dashboard-rating.html"><button class="btn btn-primary btn-lg btn-block rounded-pill">by Rating</button></a>
-      </div>
-      <div class="col-2">
-        <a href="./index-dashboard-quantity.html"><button class="btn btn-primary btn-lg btn-block rounded-pill">by Quantity</button></a>
-      </div>
-      <div class="col-2">
-        <a href="./index-compare-tools.html"><button class="btn btn-primary btn-lg btn-block rounded-pill">Tools</button></a>
-      </div>
-    </div>
-  </div> -->
   
   <div class="container-fluid text-center">
-      <h1 class="display-4">Hi, Mate!</h1>
-      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et malesuada fames.</p>
+      <h1 class="display-4">Hi, Friends!</h1>
+      <p class="lead">We then process and analyze this data to create interactive visualizations that help users compare products based on crucial metrics such as the number of units sold, customer ratings, and the quantity of products available in each store. Our goal is to offer a clear and comprehensive view of the market, enabling consumers and tech enthusiasts to make informed purchasing decisions.</p>
   </div>
 
   <div class="container-fluid my-5">
@@ -76,14 +55,15 @@
                   <!-- <h5>Shop</h5> -->
                   <h5>Filter Bar</h5>                   
                   <div class="row">
-                    <input type="checkbox" id="toko-enter" value="Toko Enter" checked onclick="updateCharts()"><label for="toko-enter">Toko Enter</label>
                     <input type="checkbox" id="toko-expert" value="Toko Expert" checked onclick="updateCharts()"><label for="toko-expert">Toko Expert</label>
-                    <input type="checkbox" id="toko-jaya" value="Toko Jaya" checked onclick="updateCharts()">
-                    <label for="toko-jaya">Toko Jaya</label>
-                    <input type="checkbox" id="itshop" value="ITShop" checked onclick="updateCharts()">
-                    <label for="itshop">ITShop</label>
-                    <input type="checkbox" id="bzones" value="BZones" checked onclick="updateCharts()">
-                    <label for="bzones">BZones</label>
+                    <input type="checkbox" id="toko-jaya" value="Toko Jaya" checked onclick="updateCharts()"><label for="toko-jaya">Toko Jaya</label>
+                    <input type="checkbox" id="bzones" value="BZones" checked onclick="updateCharts()"><label for="bzones">BZones</label>
+                    <input type="checkbox" id="entershop" value="Enter Shop" checked onclick="updateCharts()"><label for="entershop">Enter Shop</label>
+                    <input type="checkbox" id="imbapcshop" value="Imba PC" checked onclick="updateCharts()"><label for="imbapcshop">Imba PC</label>
+                    <input type="checkbox" id="agresshop" value="Agres Shop" checked onclick="updateCharts()"><label for="agresshop">Agres Shop</label>
+                    <input type="checkbox" id="itshop" value="IT Shop" checked onclick="updateCharts()"><label for="itshop">IT Shop</label>
+                    <input type="checkbox" id="pcrakitanshop" value="PC Rakitan Shop" checked onclick="updateCharts()"><label for="pcrakitanshop">PC Rakitan Shop</label>
+                    <input type="checkbox" id="rakitanofficialshop" value="Rakitan Official Shop" checked onclick="updateCharts()"><label for="rakitanofficialshop">Rakitan Official Shop</label>
                   <!-- </div>
                 </div>
                 
@@ -98,6 +78,16 @@
                       <label for="nvidia-checkbox">NVIDIA</label>
                       <input type="checkbox" id="radeon-checkbox" checked onclick="updateCharts()">
                       <label for="radeon-checkbox">Radeon</label>
+                      <input type="checkbox" id="moboIntel-checkbox" checked onclick="updateCharts()">
+                      <label for="moboIntel-checkbox">Motherboard Intel</label>
+                      <input type="checkbox" id="moboAMD-checkbox" checked onclick="updateCharts()">
+                      <label for="moboAMD-checkbox">Motherboard AMD</label>
+                      <input type="checkbox" id="ram-checkbox" checked onclick="updateCharts()">
+                      <label for="ram-checkbox">RAM</label>
+                      <input type="checkbox" id="ssd-checkbox" checked onclick="updateCharts()">
+                      <label for="ssd-checkbox">SSD</label>
+                      <input type="checkbox" id="hdd-checkbox" checked onclick="updateCharts()">
+                      <label for="hdd-checkbox">HDD</label>
                     <!-- </div>
                 </div>
                 
@@ -118,16 +108,16 @@
             </div>
           </div>
           <div class="container-fluid my-3 p-3 bg-light-opacity text-center">
-            <h5>Visualisasi Data Produk Terjual</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et malesuada fames. Aliquet nibh praesent tristique magna sit amet purus. Enim sit amet venenatis urna cursus eget nunc scelerisque viverra. Pellentesque dignissim enim sit amet venenatis urna cursus eget. Cras semper auctor neque vitae tempus quam pellentesque nec. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo. </p>
+            <h5>Visualisasi Data Produk Terjual "Sold"</h5>
+            <p>Visualisasi ini menampilkan data penjualan dari berbagai komponen komputer seperti CPU, motherboard, VGA, RAM, SSD, dan HDD yang dikumpulkan dari sembilan toko online terkemuka. Grafik ini membantu pengguna untuk melihat dan menganalisis tren penjualan dari berbagai produk. Dengan melihat jumlah unit yang terjual, pengguna dapat mengidentifikasi produk mana yang paling populer dan banyak diminati di pasar. Informasi ini sangat berguna bagi calon pembeli yang ingin mengetahui produk-produk yang laris dan mungkin memiliki performa yang baik, serta bagi penjual yang ingin mengetahui produk yang perlu diprioritaskan dalam inventaris mereka.</p>
           </div>
         </div>
         <div class="col-6">
           <div class="container-fluid bg-light-opacity p-3">
-            <div id="chart-container" class="chart-container" style="display: block;"></div>
-            <div id="pie-chart-container" class="chart-container" style="display: block;"></div>
-            <div id="line-chart-container" class="chart-container" style="display: block;"></div>
-            <div id="scatter-chart-container" class="chart-container" style="display: block;"></div>
+            <div id="chart-container"></div>
+            <div id="pie-chart-container"></div>
+            <div id="line-chart-container"></div>
+            <div id="scatter-chart-container"></div>
           </div>
         </div>
         <div class="col-3">
@@ -160,7 +150,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-  <script src="js/scripts.js"></script>
+  <script src="js/scripts-sold.js"></script>
   <script src="js/time.js"></script>
 
 </body>
