@@ -24,7 +24,7 @@ async function getData() {
   const imbaPCData = await fetchData('../data/ImbaPCShop.json');
   const agresData = await fetchData('../data/AgresShop.json');
   const itshop = await fetchData('../data/ITShop.json');
-  const pcrakitanshop = await fetchData('../data/PCRakitanshop.json');
+  const pcrakitanshop = await fetchData('../data/PCRakitanShop.json');
   const rakitanshop = await fetchData('../data/RakitanOfficialShop.json');
   
   return {
