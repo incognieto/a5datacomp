@@ -38,7 +38,7 @@ A5DataComp adalah platform yang menyajikan hasil visualisasi data dari komponen 
     ```
 4. Jalankan server:
     ```bash
-    localhost
+    localhost/
     ```
 
 ## Kontribusi
